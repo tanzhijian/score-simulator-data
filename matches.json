@@ -1,453 +1,162 @@
 {
   "data": [
     {
-      "date": "2023-09-27",
-      "data": [
-        {
-          "id": "10b141ab-ba7a-4be9-9f44-2bc7897f0860",
-          "competition": {
-            "code": "LL",
-            "name": "LaLiga",
-            "logo": "https://crests.football-data.org/PD.png"
-          },
-          "start_time": "2023-09-27T17:00:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Athletic Club",
-            "logo": "https://crests.football-data.org/77.png",
-            "shots": 69,
-            "xg": 10.0,
-            "score": 2,
-            "matches_played": 6
-          },
-          "away_team": {
-            "name": "Getafe",
-            "logo": "https://crests.football-data.org/82.png",
-            "shots": 54,
-            "xg": 5.8,
-            "score": 2,
-            "matches_played": 6
-          }
-        },
-        {
-          "id": "d360c947-5759-49a1-be45-2b78095ec93d",
-          "competition": {
-            "code": "LL",
-            "name": "LaLiga",
-            "logo": "https://crests.football-data.org/PD.png"
-          },
-          "start_time": "2023-09-27T17:00:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Real Madrid",
-            "logo": "https://crests.football-data.org/86.png",
-            "shots": 111,
-            "xg": 10.1,
-            "score": 2,
-            "matches_played": 6
-          },
-          "away_team": {
-            "name": "Las Palmas",
-            "logo": "https://crests.football-data.org/275.png",
-            "shots": 56,
-            "xg": 5.0,
-            "score": 0,
-            "matches_played": 6
-          }
-        },
-        {
-          "id": "a0f11d37-cd88-42a0-aa81-be5b0061cc05",
-          "competition": {
-            "code": "LL",
-            "name": "LaLiga",
-            "logo": "https://crests.football-data.org/PD.png"
-          },
-          "start_time": "2023-09-27T17:00:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Villarreal",
-            "logo": "https://crests.football-data.org/94.png",
-            "shots": 76,
-            "xg": 7.5,
-            "score": 1,
-            "matches_played": 6
-          },
-          "away_team": {
-            "name": "Girona",
-            "logo": "https://crests.football-data.org/298.png",
-            "shots": 67,
-            "xg": 10.9,
-            "score": 2,
-            "matches_played": 6
-          }
-        },
-        {
-          "id": "b2474626-068e-4a34-be47-ba7c4196fcce",
-          "competition": {
-            "code": "LL",
-            "name": "LaLiga",
-            "logo": "https://crests.football-data.org/PD.png"
-          },
-          "start_time": "2023-09-27T19:30:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Cadiz",
-            "logo": "https://crests.football-data.org/264.png",
-            "shots": 60,
-            "xg": 6.0,
-            "score": 0,
-            "matches_played": 6
-          },
-          "away_team": {
-            "name": "Rayo Vallecano",
-            "logo": "https://crests.football-data.org/87.svg",
-            "shots": 82,
-            "xg": 10.1,
-            "score": 0,
-            "matches_played": 6
-          }
-        },
-        {
-          "id": "7b13b1bc-9251-44ee-a97c-42ceb4b2c6b1",
-          "competition": {
-            "code": "LL",
-            "name": "LaLiga",
-            "logo": "https://crests.football-data.org/PD.png"
-          },
-          "start_time": "2023-09-27T19:30:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Valencia",
-            "logo": "https://crests.football-data.org/95.svg",
-            "shots": 62,
-            "xg": 7.1,
-            "score": 0,
-            "matches_played": 6
-          },
-          "away_team": {
-            "name": "Real Sociedad",
-            "logo": "https://crests.football-data.org/92.svg",
-            "shots": 73,
-            "xg": 8.7,
-            "score": 1,
-            "matches_played": 6
-          }
-        },
-        {
-          "id": "f0538d59-03cb-4bd9-be5c-b915b36e6e57",
-          "competition": {
-            "code": "SA",
-            "name": "Serie A",
-            "logo": "https://crests.football-data.org/SA.png"
-          },
-          "start_time": "2023-09-27T16:30:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Cagliari",
-            "logo": "https://crests.football-data.org/104.svg",
-            "shots": 47,
-            "xg": 3.8,
-            "score": 1,
-            "matches_played": 5
-          },
-          "away_team": {
-            "name": "Milan",
-            "logo": "https://crests.football-data.org/98.svg",
-            "shots": 50,
-            "xg": 7.4,
-            "score": 3,
-            "matches_played": 5
-          }
-        },
-        {
-          "id": "9f69a93d-dae5-44e1-97dc-9d8c6be13d09",
-          "competition": {
-            "code": "SA",
-            "name": "Serie A",
-            "logo": "https://crests.football-data.org/SA.png"
-          },
-          "start_time": "2023-09-27T16:30:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Empoli",
-            "logo": "https://crests.football-data.org/445.png",
-            "shots": 50,
-            "xg": 2.6,
-            "score": 1,
-            "matches_played": 5
-          },
-          "away_team": {
-            "name": "Salernitana",
-            "logo": "https://crests.football-data.org/455.png",
-            "shots": 56,
-            "xg": 3.5,
-            "score": 0,
-            "matches_played": 5
-          }
-        },
-        {
-          "id": "e331ee84-ad06-4d2a-b67f-f0b3ef546cc9",
-          "competition": {
-            "code": "SA",
-            "name": "Serie A",
-            "logo": "https://crests.football-data.org/SA.png"
-          },
-          "start_time": "2023-09-27T16:30:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Verona",
-            "logo": "https://crests.football-data.org/450.png",
-            "shots": 45,
-            "xg": 2.9,
-            "score": 0,
-            "matches_played": 5
-          },
-          "away_team": {
-            "name": "Atalanta",
-            "logo": "https://crests.football-data.org/102.svg",
-            "shots": 73,
-            "xg": 6.6,
-            "score": 1,
-            "matches_played": 5
-          }
-        },
-        {
-          "id": "b44c5110-76fd-47bf-8e6f-8db0c2b62c50",
-          "competition": {
-            "code": "SA",
-            "name": "Serie A",
-            "logo": "https://crests.football-data.org/SA.png"
-          },
-          "start_time": "2023-09-27T18:45:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Inter",
-            "logo": "https://crests.football-data.org/108.png",
-            "shots": 95,
-            "xg": 11.5,
-            "score": 1,
-            "matches_played": 5
-          },
-          "away_team": {
-            "name": "Sassuolo",
-            "logo": "https://crests.football-data.org/471.svg",
-            "shots": 68,
-            "xg": 4.4,
-            "score": 2,
-            "matches_played": 5
-          }
-        },
-        {
-          "id": "083d5e97-913b-4ead-9073-566e0b9c0631",
-          "competition": {
-            "code": "SA",
-            "name": "Serie A",
-            "logo": "https://crests.football-data.org/SA.png"
-          },
-          "start_time": "2023-09-27T18:45:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Lazio",
-            "logo": "https://crests.football-data.org/110.svg",
-            "shots": 55,
-            "xg": 5.2,
-            "score": 2,
-            "matches_played": 5
-          },
-          "away_team": {
-            "name": "Torino",
-            "logo": "https://crests.football-data.org/586.svg",
-            "shots": 52,
-            "xg": 4.5,
-            "score": 0,
-            "matches_played": 5
-          }
-        },
-        {
-          "id": "e2f270a9-b7fa-48b6-a3bb-64e620f91c46",
-          "competition": {
-            "code": "SA",
-            "name": "Serie A",
-            "logo": "https://crests.football-data.org/SA.png"
-          },
-          "start_time": "2023-09-27T18:45:00Z",
-          "finished": true,
-          "home_team": {
-            "name": "Napoli",
-            "logo": "https://crests.football-data.org/113.svg",
-            "shots": 87,
-            "xg": 9.2,
-            "score": 4,
-            "matches_played": 5
-          },
-          "away_team": {
-            "name": "Udinese",
-            "logo": "https://crests.football-data.org/115.png",
-            "shots": 75,
-            "xg": 6.2,
-            "score": 1,
-            "matches_played": 5
-          }
-        }
-      ]
-    },
-    {
       "date": "2023-09-28",
       "data": [
         {
-          "id": "c11199f8-8502-4713-9117-a176944b6cc9",
+          "id": "f8ec9481-7692-41b8-a099-caf6e30f5fdd",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
             "logo": "https://crests.football-data.org/PD.png"
           },
           "start_time": "2023-09-28T17:00:00Z",
-          "finished": false,
+          "finished": true,
           "home_team": {
             "name": "Celta Vigo",
             "logo": "https://crests.football-data.org/558.svg",
-            "shots": 84,
-            "xg": 7.6,
-            "score": 0,
-            "matches_played": 6
+            "shots": 92,
+            "xg": 8.1,
+            "score": 1,
+            "matches_played": 7
           },
           "away_team": {
             "name": "Alaves",
             "logo": "https://crests.football-data.org/263.png",
-            "shots": 70,
-            "xg": 5.9,
-            "score": 0,
-            "matches_played": 6
+            "shots": 91,
+            "xg": 8.0,
+            "score": 1,
+            "matches_played": 7
           }
         },
         {
-          "id": "b8d2557a-e351-4286-812d-7fd2960593f5",
+          "id": "25044b29-abb9-47c4-89b5-f12171ba2484",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
             "logo": "https://crests.football-data.org/PD.png"
           },
           "start_time": "2023-09-28T17:00:00Z",
-          "finished": false,
+          "finished": true,
           "home_team": {
             "name": "Granada",
             "logo": "https://crests.football-data.org/83.svg",
-            "shots": 52,
-            "xg": 6.0,
-            "score": 0,
-            "matches_played": 6
+            "shots": 72,
+            "xg": 7.6,
+            "score": 1,
+            "matches_played": 7
           },
           "away_team": {
             "name": "Real Betis",
             "logo": "https://crests.football-data.org/90.png",
-            "shots": 81,
-            "xg": 6.0,
-            "score": 0,
-            "matches_played": 6
+            "shots": 94,
+            "xg": 6.7,
+            "score": 1,
+            "matches_played": 7
           }
         },
         {
-          "id": "1bbccd9b-ad70-49d7-9350-3b18d91dd5c4",
+          "id": "35926a8d-27f1-455e-84b0-db2ceb5ee8fb",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
             "logo": "https://crests.football-data.org/PD.png"
           },
           "start_time": "2023-09-28T19:30:00Z",
-          "finished": false,
+          "finished": true,
           "home_team": {
             "name": "Osasuna",
             "logo": "https://crests.football-data.org/79.svg",
-            "shots": 69,
-            "xg": 6.8,
+            "shots": 82,
+            "xg": 7.7,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           },
           "away_team": {
             "name": "Atletico Madrid",
             "logo": "https://crests.football-data.org/78.svg",
-            "shots": 57,
-            "xg": 8.2,
-            "score": 0,
-            "matches_played": 5
+            "shots": 62,
+            "xg": 9.7,
+            "score": 2,
+            "matches_played": 6
           }
         },
         {
-          "id": "519c3f49-eb3d-4853-8ec3-82537171d5d4",
+          "id": "536134dd-1960-486a-b240-4db33d86071b",
           "competition": {
             "code": "SA",
             "name": "Serie A",
             "logo": "https://crests.football-data.org/SA.png"
           },
           "start_time": "2023-09-28T16:30:00Z",
-          "finished": false,
+          "finished": true,
           "home_team": {
             "name": "Frosinone",
             "logo": "https://crests.football-data.org/470.png",
-            "shots": 52,
-            "xg": 7.0,
-            "score": 0,
-            "matches_played": 5
+            "shots": 63,
+            "xg": 7.7,
+            "score": 1,
+            "matches_played": 6
           },
           "away_team": {
             "name": "Fiorentina",
             "logo": "https://crests.football-data.org/99.svg",
-            "shots": 46,
-            "xg": 4.3,
-            "score": 0,
-            "matches_played": 5
+            "shots": 65,
+            "xg": 5.6,
+            "score": 1,
+            "matches_played": 6
           }
         },
         {
-          "id": "1d1faa8f-2605-4121-862a-4b4ce1644c60",
+          "id": "7d3f2786-0746-4992-a52e-b386319ba9f9",
           "competition": {
             "code": "SA",
             "name": "Serie A",
             "logo": "https://crests.football-data.org/SA.png"
           },
           "start_time": "2023-09-28T16:30:00Z",
-          "finished": false,
+          "finished": true,
           "home_team": {
             "name": "Monza",
             "logo": "https://crests.football-data.org/5911.png",
-            "shots": 81,
-            "xg": 6.5,
+            "shots": 92,
+            "xg": 7.5,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           },
           "away_team": {
             "name": "Bologna",
             "logo": "https://crests.football-data.org/103.svg",
-            "shots": 57,
-            "xg": 4.7,
+            "shots": 64,
+            "xg": 5.2,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           }
         },
         {
-          "id": "a8e3fab0-9ec9-4602-857c-c5c613288ae3",
+          "id": "3e2db181-be25-4adf-9bf7-08e7c39f1a34",
           "competition": {
             "code": "SA",
             "name": "Serie A",
             "logo": "https://crests.football-data.org/SA.png"
           },
           "start_time": "2023-09-28T18:45:00Z",
-          "finished": false,
+          "finished": true,
           "home_team": {
             "name": "Genoa",
             "logo": "https://crests.football-data.org/107.svg",
-            "shots": 32,
-            "xg": 2.4,
-            "score": 0,
-            "matches_played": 5
+            "shots": 40,
+            "xg": 3.5,
+            "score": 4,
+            "matches_played": 6
           },
           "away_team": {
             "name": "Roma",
             "logo": "https://crests.football-data.org/100.svg",
-            "shots": 73,
-            "xg": 7.9,
-            "score": 0,
-            "matches_played": 5
+            "shots": 86,
+            "xg": 9.2,
+            "score": 1,
+            "matches_played": 6
           }
         }
       ]
@@ -456,7 +165,7 @@
       "date": "2023-09-29",
       "data": [
         {
-          "id": "3df9b769-af46-4efd-88ae-ca20c2c65585",
+          "id": "7f985b14-99c3-448f-b8d6-66bd788ac71e",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
@@ -467,22 +176,22 @@
           "home_team": {
             "name": "Barcelona",
             "logo": "https://crests.football-data.org/81.svg",
-            "shots": 99,
-            "xg": 13.9,
+            "shots": 109,
+            "xg": 15.8,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           },
           "away_team": {
             "name": "Sevilla",
             "logo": "https://crests.football-data.org/559.svg",
-            "shots": 83,
-            "xg": 5.5,
+            "shots": 101,
+            "xg": 7.7,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           }
         },
         {
-          "id": "83e6fe64-090c-4f44-8438-334601206c51",
+          "id": "278eeb6f-ee74-4888-b3cc-fe850cf2cc21",
           "competition": {
             "code": "BL1",
             "name": "Bundesliga",
@@ -508,7 +217,7 @@
           }
         },
         {
-          "id": "345b8a4b-5a96-4e63-b4db-07265f18ccd9",
+          "id": "e9609f9f-0307-470a-ac47-18620a7ab53f",
           "competition": {
             "code": "FL1",
             "name": "Ligue 1",
@@ -539,7 +248,7 @@
       "date": "2023-09-30",
       "data": [
         {
-          "id": "91d00109-7cd1-45c5-878a-fdf5ea6b167f",
+          "id": "2aefb3ac-4742-4b6d-8251-47fceb68e465",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -565,7 +274,7 @@
           }
         },
         {
-          "id": "bc0a9f10-b542-4d30-980c-9a6ba7d8180f",
+          "id": "ff2e0216-8020-4664-bc55-1788f5c97872",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -591,7 +300,7 @@
           }
         },
         {
-          "id": "6c44bd78-b42d-44d6-9952-8cf34351d075",
+          "id": "27e49fb8-8450-4c0c-ad3a-072bb6cb9d83",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -617,7 +326,7 @@
           }
         },
         {
-          "id": "4c7697f2-7551-4354-8b86-c8af8132e80e",
+          "id": "f3b1988c-19d7-4bbd-8c26-0bd9c0dd5f82",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -643,7 +352,7 @@
           }
         },
         {
-          "id": "ab004057-b9a7-46f3-abf7-8bf338a75338",
+          "id": "38a7ce6e-2fc0-48d4-9295-21263a71ea67",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -669,7 +378,7 @@
           }
         },
         {
-          "id": "e36e5769-7148-4eaf-9ec2-7d19067b6f43",
+          "id": "c63aba8a-480a-44bb-8603-7c5e7d07acfb",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -695,7 +404,7 @@
           }
         },
         {
-          "id": "18ffd3da-381e-4e6c-b7f2-0ab794ee709b",
+          "id": "364d79b2-3d32-43d2-a8cd-c77ed3acd056",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -721,7 +430,7 @@
           }
         },
         {
-          "id": "ed71342b-1725-4090-bf3b-022800792443",
+          "id": "b9fd9e5d-aca2-492d-aaaf-d8ae637c8467",
           "competition": {
             "code": "PL",
             "name": "Premier League",
@@ -747,7 +456,7 @@
           }
         },
         {
-          "id": "09663f57-abe6-41c7-9224-4471fe303983",
+          "id": "054825da-dc3b-42d5-9c75-151651921e30",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
@@ -758,22 +467,22 @@
           "home_team": {
             "name": "Getafe",
             "logo": "https://crests.football-data.org/82.png",
-            "shots": 54,
-            "xg": 5.8,
+            "shots": 67,
+            "xg": 7.2,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           },
           "away_team": {
             "name": "Villarreal",
             "logo": "https://crests.football-data.org/94.png",
-            "shots": 76,
-            "xg": 7.5,
+            "shots": 89,
+            "xg": 9.3,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           }
         },
         {
-          "id": "097f5aa4-55fc-482d-8b58-3483b696387f",
+          "id": "931e7126-d753-455f-8297-c6f3d2949220",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
@@ -784,22 +493,22 @@
           "home_team": {
             "name": "Rayo Vallecano",
             "logo": "https://crests.football-data.org/87.svg",
-            "shots": 82,
-            "xg": 10.1,
+            "shots": 91,
+            "xg": 10.3,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           },
           "away_team": {
             "name": "Mallorca",
             "logo": "https://crests.football-data.org/89.png",
-            "shots": 56,
-            "xg": 7.5,
+            "shots": 66,
+            "xg": 8.3,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           }
         },
         {
-          "id": "849c8c1a-fc66-4569-a5dc-7ad9edc1bfb2",
+          "id": "7b42fe2c-9885-4db6-84d2-378d927ab823",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
@@ -810,22 +519,22 @@
           "home_team": {
             "name": "Girona",
             "logo": "https://crests.football-data.org/298.png",
-            "shots": 67,
-            "xg": 10.9,
+            "shots": 84,
+            "xg": 13.0,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           },
           "away_team": {
             "name": "Real Madrid",
             "logo": "https://crests.football-data.org/86.png",
-            "shots": 111,
-            "xg": 10.1,
+            "shots": 132,
+            "xg": 11.8,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           }
         },
         {
-          "id": "fdfcfe91-c4fa-4cbe-a094-1ac455d90142",
+          "id": "f0910457-1ed4-4f99-ab37-1acae129aa7c",
           "competition": {
             "code": "LL",
             "name": "LaLiga",
@@ -836,22 +545,22 @@
           "home_team": {
             "name": "Real Sociedad",
             "logo": "https://crests.football-data.org/92.svg",
-            "shots": 73,
-            "xg": 8.7,
+            "shots": 75,
+            "xg": 8.9,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           },
           "away_team": {
             "name": "Athletic Club",
             "logo": "https://crests.football-data.org/77.png",
-            "shots": 69,
-            "xg": 10.0,
+            "shots": 77,
+            "xg": 10.7,
             "score": 0,
-            "matches_played": 6
+            "matches_played": 7
           }
         },
         {
-          "id": "55bfd2cf-0126-431b-9927-3906540aeca3",
+          "id": "b54af1c7-eca2-4368-b0e5-077159a05f07",
           "competition": {
             "code": "BL1",
             "name": "Bundesliga",
@@ -877,7 +586,7 @@
           }
         },
         {
-          "id": "d84d17fa-3e75-4041-aec1-c890d0cf7c2b",
+          "id": "5a63df9f-30cf-4489-9369-21c2d869884f",
           "competition": {
             "code": "BL1",
             "name": "Bundesliga",
@@ -903,7 +612,7 @@
           }
         },
         {
-          "id": "976b0088-cf04-4398-ba57-ca74dfff6ed5",
+          "id": "27d71177-79d9-408e-8c57-e5dc2a0df098",
           "competition": {
             "code": "BL1",
             "name": "Bundesliga",
@@ -929,7 +638,7 @@
           }
         },
         {
-          "id": "46f63d52-57ba-48f5-8574-063c90ef414c",
+          "id": "b7d884e4-653e-454d-8d19-4fc5d7f42727",
           "competition": {
             "code": "BL1",
             "name": "Bundesliga",
@@ -955,7 +664,7 @@
           }
         },
         {
-          "id": "39f9fec0-e775-46b6-bb7f-07e4eb6d9104",
+          "id": "d360c9c9-f972-447b-9692-81c0ded17870",
           "competition": {
             "code": "BL1",
             "name": "Bundesliga",
@@ -981,7 +690,7 @@
           }
         },
         {
-          "id": "103dde97-347f-4a79-a650-4fdbb677b4c2",
+          "id": "fe9385dc-0e19-4a8e-9265-f7e659e17914",
           "competition": {
             "code": "BL1",
             "name": "Bundesliga",
@@ -1007,7 +716,7 @@
           }
         },
         {
-          "id": "637f22c9-a9b8-493d-bc58-4a3d9cf28c4b",
+          "id": "d8a2ac04-3596-49f7-9734-80e5e6f404d5",
           "competition": {
             "code": "SA",
             "name": "Serie A",
@@ -1018,22 +727,22 @@
           "home_team": {
             "name": "Lecce",
             "logo": "https://crests.football-data.org/5890.png",
-            "shots": 69,
-            "xg": 5.2,
+            "shots": 71,
+            "xg": 5.3,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           },
           "away_team": {
             "name": "Napoli",
             "logo": "https://crests.football-data.org/113.svg",
-            "shots": 87,
-            "xg": 9.2,
+            "shots": 109,
+            "xg": 12.5,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           }
         },
         {
-          "id": "be14ec6b-70c3-492b-a96a-9930434a36e1",
+          "id": "57838332-b0dc-45b2-849f-2f39c0e16aa9",
           "competition": {
             "code": "SA",
             "name": "Serie A",
@@ -1044,22 +753,22 @@
           "home_team": {
             "name": "Milan",
             "logo": "https://crests.football-data.org/98.svg",
-            "shots": 50,
-            "xg": 7.4,
+            "shots": 67,
+            "xg": 9.6,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           },
           "away_team": {
             "name": "Lazio",
             "logo": "https://crests.football-data.org/110.svg",
-            "shots": 55,
-            "xg": 5.2,
+            "shots": 61,
+            "xg": 6.1,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           }
         },
         {
-          "id": "53c1afc5-d464-4f43-8e3a-cefe2133d347",
+          "id": "bee2ac21-481a-4152-8f3f-e363f567d184",
           "competition": {
             "code": "SA",
             "name": "Serie A",
@@ -1070,22 +779,22 @@
           "home_team": {
             "name": "Salernitana",
             "logo": "https://crests.football-data.org/455.png",
-            "shots": 56,
-            "xg": 3.5,
+            "shots": 70,
+            "xg": 4.1,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           },
           "away_team": {
             "name": "Inter",
             "logo": "https://crests.football-data.org/108.png",
-            "shots": 95,
-            "xg": 11.5,
+            "shots": 108,
+            "xg": 12.4,
             "score": 0,
-            "matches_played": 5
+            "matches_played": 6
           }
         },
         {
-          "id": "9257be8b-fb90-4f77-97e0-02e6eb858d98",
+          "id": "74ec8da1-d678-4908-89b1-fa49d1d8bdf8",
           "competition": {
             "code": "FL1",
             "name": "Ligue 1",
@@ -1111,7 +820,7 @@
           }
         },
         {
-          "id": "382a7487-8205-4b1d-8f3e-64f1457fa65c",
+          "id": "5826deaf-c228-4a47-850a-8d6053ddf8e9",
           "competition": {
             "code": "FL1",
             "name": "Ligue 1",
@@ -1132,6 +841,453 @@
             "logo": "https://crests.football-data.org/516.png",
             "shots": 107,
             "xg": 10.6,
+            "score": 0,
+            "matches_played": 6
+          }
+        }
+      ]
+    },
+    {
+      "date": "2023-10-01",
+      "data": [
+        {
+          "id": "6bd8ba9e-d256-4a85-bec6-fcf47945eabf",
+          "competition": {
+            "code": "PL",
+            "name": "Premier League",
+            "logo": "https://crests.football-data.org/PL.png"
+          },
+          "start_time": "2023-10-01T13:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Nottingham Forest",
+            "logo": "https://crests.football-data.org/351.png",
+            "shots": 62,
+            "xg": 6.3,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Brentford",
+            "logo": "https://crests.football-data.org/402.png",
+            "shots": 82,
+            "xg": 11.2,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "2c0a929a-bc7f-4f0c-8aa5-6c137388d258",
+          "competition": {
+            "code": "LL",
+            "name": "LaLiga",
+            "logo": "https://crests.football-data.org/PD.png"
+          },
+          "start_time": "2023-10-01T12:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Almeria",
+            "logo": "https://crests.football-data.org/267.png",
+            "shots": 103,
+            "xg": 11.9,
+            "score": 0,
+            "matches_played": 7
+          },
+          "away_team": {
+            "name": "Granada",
+            "logo": "https://crests.football-data.org/83.svg",
+            "shots": 72,
+            "xg": 7.6,
+            "score": 0,
+            "matches_played": 7
+          }
+        },
+        {
+          "id": "315b031f-d4fe-41b2-82f4-fba7364e5170",
+          "competition": {
+            "code": "LL",
+            "name": "LaLiga",
+            "logo": "https://crests.football-data.org/PD.png"
+          },
+          "start_time": "2023-10-01T14:15:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Alaves",
+            "logo": "https://crests.football-data.org/263.png",
+            "shots": 91,
+            "xg": 8.0,
+            "score": 0,
+            "matches_played": 7
+          },
+          "away_team": {
+            "name": "Osasuna",
+            "logo": "https://crests.football-data.org/79.svg",
+            "shots": 82,
+            "xg": 7.7,
+            "score": 0,
+            "matches_played": 7
+          }
+        },
+        {
+          "id": "bbfc36c5-92d1-42b9-a2dc-12b95b61bd0e",
+          "competition": {
+            "code": "LL",
+            "name": "LaLiga",
+            "logo": "https://crests.football-data.org/PD.png"
+          },
+          "start_time": "2023-10-01T19:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Atletico Madrid",
+            "logo": "https://crests.football-data.org/78.svg",
+            "shots": 62,
+            "xg": 9.7,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Cadiz",
+            "logo": "https://crests.football-data.org/264.png",
+            "shots": 69,
+            "xg": 6.5,
+            "score": 0,
+            "matches_played": 7
+          }
+        },
+        {
+          "id": "ef438485-56cc-4c72-ba34-553dbef8c0c0",
+          "competition": {
+            "code": "LL",
+            "name": "LaLiga",
+            "logo": "https://crests.football-data.org/PD.png"
+          },
+          "start_time": "2023-10-01T19:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Real Betis",
+            "logo": "https://crests.football-data.org/90.png",
+            "shots": 94,
+            "xg": 6.7,
+            "score": 0,
+            "matches_played": 7
+          },
+          "away_team": {
+            "name": "Valencia",
+            "logo": "https://crests.football-data.org/95.svg",
+            "shots": 71,
+            "xg": 7.5,
+            "score": 0,
+            "matches_played": 7
+          }
+        },
+        {
+          "id": "d5cd2e88-134c-42ed-8553-4c89128355c8",
+          "competition": {
+            "code": "BL1",
+            "name": "Bundesliga",
+            "logo": "https://crests.football-data.org/BL1.png"
+          },
+          "start_time": "2023-10-01T13:30:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Darmstadt",
+            "logo": "https://crests.football-data.org/55.png",
+            "shots": 55,
+            "xg": 4.5,
+            "score": 0,
+            "matches_played": 5
+          },
+          "away_team": {
+            "name": "Werder Bremen",
+            "logo": "https://crests.football-data.org/12.svg",
+            "shots": 60,
+            "xg": 9.4,
+            "score": 0,
+            "matches_played": 5
+          }
+        },
+        {
+          "id": "66f86103-7b5d-4a54-bde8-e351aea97c65",
+          "competition": {
+            "code": "BL1",
+            "name": "Bundesliga",
+            "logo": "https://crests.football-data.org/BL1.png"
+          },
+          "start_time": "2023-10-01T15:30:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Freiburg",
+            "logo": "https://crests.football-data.org/17.svg",
+            "shots": 76,
+            "xg": 7.6,
+            "score": 0,
+            "matches_played": 5
+          },
+          "away_team": {
+            "name": "Augsburg",
+            "logo": "https://crests.football-data.org/16.png",
+            "shots": 61,
+            "xg": 7.3,
+            "score": 0,
+            "matches_played": 5
+          }
+        },
+        {
+          "id": "ad590ca4-aac0-4e6f-b313-a889584ed741",
+          "competition": {
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/SA.png"
+          },
+          "start_time": "2023-10-01T10:30:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Bologna",
+            "logo": "https://crests.football-data.org/103.svg",
+            "shots": 64,
+            "xg": 5.2,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Empoli",
+            "logo": "https://crests.football-data.org/445.png",
+            "shots": 63,
+            "xg": 5.7,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "3306a980-b695-41c4-bb0b-6eb6f9d71822",
+          "competition": {
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/SA.png"
+          },
+          "start_time": "2023-10-01T13:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Udinese",
+            "logo": "https://crests.football-data.org/115.png",
+            "shots": 88,
+            "xg": 6.9,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Genoa",
+            "logo": "https://crests.football-data.org/107.svg",
+            "shots": 40,
+            "xg": 3.5,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "9c3e5e6c-7dd2-43a4-9839-c93a167a398c",
+          "competition": {
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/SA.png"
+          },
+          "start_time": "2023-10-01T16:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Atalanta",
+            "logo": "https://crests.football-data.org/102.svg",
+            "shots": 81,
+            "xg": 7.9,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Juventus",
+            "logo": "https://crests.football-data.org/109.svg",
+            "shots": 86,
+            "xg": 9.6,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "755a7251-8e09-4c4c-a387-76d7ad129b09",
+          "competition": {
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/SA.png"
+          },
+          "start_time": "2023-10-01T18:45:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Roma",
+            "logo": "https://crests.football-data.org/100.svg",
+            "shots": 86,
+            "xg": 9.2,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Frosinone",
+            "logo": "https://crests.football-data.org/470.png",
+            "shots": 63,
+            "xg": 7.7,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "d41bb2f2-dd39-4583-86fc-3e67fe6dabbb",
+          "competition": {
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png"
+          },
+          "start_time": "2023-10-01T11:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Reims",
+            "logo": "https://crests.football-data.org/547.png",
+            "shots": 59,
+            "xg": 7.5,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Lyon",
+            "logo": "https://crests.football-data.org/523.svg",
+            "shots": 83,
+            "xg": 6.3,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "eef369ca-f663-447a-8c8a-069046317154",
+          "competition": {
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png"
+          },
+          "start_time": "2023-10-01T13:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Le Havre",
+            "logo": "https://crests.football-data.org/533.png",
+            "shots": 70,
+            "xg": 6.7,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Lille",
+            "logo": "https://crests.football-data.org/521.svg",
+            "shots": 87,
+            "xg": 8.1,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "4c971a62-3b7c-408c-b445-b06cec6fb338",
+          "competition": {
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png"
+          },
+          "start_time": "2023-10-01T13:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Nice",
+            "logo": "https://crests.football-data.org/522.png",
+            "shots": 93,
+            "xg": 9.2,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Brest",
+            "logo": "https://crests.football-data.org/512.png",
+            "shots": 99,
+            "xg": 10.5,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "2547e7ad-a2e2-4b57-8b3b-39e156f5072c",
+          "competition": {
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png"
+          },
+          "start_time": "2023-10-01T13:00:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Toulouse",
+            "logo": "https://crests.football-data.org/511.png",
+            "shots": 49,
+            "xg": 4.4,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Metz",
+            "logo": "https://crests.football-data.org/545.svg",
+            "shots": 56,
+            "xg": 4.5,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "1fc02faf-5991-4409-bb37-efba146246f6",
+          "competition": {
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png"
+          },
+          "start_time": "2023-10-01T15:05:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Lorient",
+            "logo": "https://crests.football-data.org/525.png",
+            "shots": 51,
+            "xg": 5.9,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Montpellier",
+            "logo": "https://crests.football-data.org/518.png",
+            "shots": 78,
+            "xg": 8.3,
+            "score": 0,
+            "matches_played": 6
+          }
+        },
+        {
+          "id": "b7f8c12d-a497-4c8f-8f94-fafc9517b0b5",
+          "competition": {
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png"
+          },
+          "start_time": "2023-10-01T18:45:00Z",
+          "finished": false,
+          "home_team": {
+            "name": "Rennes",
+            "logo": "https://crests.football-data.org/529.png",
+            "shots": 91,
+            "xg": 10.2,
+            "score": 0,
+            "matches_played": 6
+          },
+          "away_team": {
+            "name": "Nantes",
+            "logo": "https://crests.football-data.org/543.png",
+            "shots": 60,
+            "xg": 6.9,
             "score": 0,
             "matches_played": 6
           }
