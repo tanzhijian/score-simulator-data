@@ -5,3 +5,4 @@ __MACOSX
 *.sublime-workspace
 
 .env
+Makefile
