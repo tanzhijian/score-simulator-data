@@ -8,6 +8,7 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 from httpx import AsyncClient
 from fusion_stat import Competitions, Competition, Matches
+from tqdm import tqdm
 
 
 # 读取环境变量
@@ -55,15 +56,20 @@ def generate_recent_dates() -> list[str]:
     return dates
 
 
-async def get_coms_index(client: AsyncClient) -> list[dict[str, Any]]:
+async def get_coms_index(
+    client: AsyncClient,
+    pbar: tqdm,
+) -> list[dict[str, Any]]:
     coms = Competitions(client=client)
     fusion = await coms.gather()
+    pbar.update(1)
     return fusion.index()
 
 
 async def get_competitions_and_teams(
     client: AsyncClient,
     coms_index: list[dict[str, Any]],
+    pbar: tqdm,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     competitions = {}
     teams = {}
@@ -72,6 +78,7 @@ async def get_competitions_and_teams(
 
         com = Competition(**params, client=client)
         fusion = await com.gather()
+        pbar.update(1)
 
         competitions[fusion.info["id"]] = fusion.info
 
@@ -85,6 +92,7 @@ async def get_matches(
     client: AsyncClient,
     competitions: dict[str, Any],
     teams: dict[str, Any],
+    pbar: tqdm,
 ) -> dict[str, list[Any]]:
     matches_data = {}
     dates = generate_recent_dates()
@@ -93,6 +101,7 @@ async def get_matches(
 
         matches = Matches(date=date, client=client)
         fusion = await matches.gather()
+        pbar.update(1)
 
         day_matches = []
         if fusion.info["matches"]:
@@ -149,11 +158,12 @@ def export(data: dict[str, Any], file: str) -> None:
 
 async def main() -> None:
     async with AsyncClient(proxies=TEST_HTTP_PROXY) as client:
-        coms_index = await get_coms_index(client)
-        competitions, teams = await get_competitions_and_teams(
-            client, coms_index
-        )
-        matches = await get_matches(client, competitions, teams)
+        with tqdm(total=10) as pbar:
+            coms_index = await get_coms_index(client, pbar)
+            competitions, teams = await get_competitions_and_teams(
+                client, coms_index, pbar
+            )
+            matches = await get_matches(client, competitions, teams, pbar)
     export(matches, "matches.json")
 
 
