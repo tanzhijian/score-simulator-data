@@ -7,7 +7,7 @@ from datetime import date as datelib, timedelta
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from httpx import AsyncClient
-from fusion_stat import Competitions, Competition, Matches
+from fusion_stat import Fusion
 from tqdm import tqdm
 
 
@@ -25,12 +25,12 @@ TEST_HTTP_PROXY = read_env("TEST_HTTP_PROXY")
 DELAY = 2
 
 
-class CompetitionModel(BaseModel):
+class Competition(BaseModel):
     name: str
     logo: str
 
 
-class TeamModel(BaseModel):
+class Team(BaseModel):
     name: str
     logo: str
     shots: int
@@ -39,13 +39,13 @@ class TeamModel(BaseModel):
     played: int
 
 
-class MatchModel(BaseModel):
+class Match(BaseModel):
     name: str
     utc_time: str
     finished: bool
-    competition: CompetitionModel
-    home: TeamModel
-    away: TeamModel
+    competition: Competition
+    home: Team
+    away: Team
 
 
 def generate_recent_dates() -> list[str]:
@@ -57,17 +57,16 @@ def generate_recent_dates() -> list[str]:
 
 
 async def get_coms_index(
-    client: AsyncClient,
+    fusion: Fusion,
     pbar: tqdm,
 ) -> list[dict[str, Any]]:
-    coms = Competitions(client=client)
-    fusion = await coms.gather()
+    competitions = await fusion.get_competitions()
     pbar.update(1)
-    return fusion.index()
+    return competitions.index()
 
 
 async def get_competitions_and_teams(
-    client: AsyncClient,
+    fusion: Fusion,
     coms_index: list[dict[str, Any]],
     pbar: tqdm,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
@@ -76,20 +75,19 @@ async def get_competitions_and_teams(
     for params in coms_index:
         await asyncio.sleep(DELAY)
 
-        com = Competition(**params, client=client)
-        fusion = await com.gather()
+        competition = await fusion.get_competition(**params)
         pbar.update(1)
 
-        competitions[fusion.info["id"]] = fusion.info
+        competitions[competition.info["id"]] = competition.info
 
-        for team in fusion.teams:
+        for team in competition.teams:
             teams[team["id"]] = team
 
     return competitions, teams
 
 
 async def get_matches(
-    client: AsyncClient,
+    fusion: Fusion,
     competitions: dict[str, Any],
     teams: dict[str, Any],
     pbar: tqdm,
@@ -99,14 +97,13 @@ async def get_matches(
     for date in dates:
         await asyncio.sleep(DELAY)
 
-        matches = Matches(date=date, client=client)
-        fusion = await matches.gather()
+        matches = await fusion.get_matches(date=date)
         pbar.update(1)
 
         day_matches = []
-        if fusion.info["matches"]:
-            for match in fusion.info["matches"]:
-                competition = CompetitionModel(
+        if matches.info["matches"]:
+            for match in matches.info["matches"]:
+                competition = Competition(
                     name=match["competition"]["name"],
                     logo=competitions[match["competition"]["id"]]["logo"],
                 )
@@ -119,7 +116,7 @@ async def get_matches(
                     home_score, away_score = None, None
 
                 home_team = teams[match["home"]["id"]]
-                home = TeamModel(
+                home = Team(
                     name=home_team["name"],
                     logo=home_team["logo"],
                     shots=home_team["shooting"]["shots"],
@@ -129,7 +126,7 @@ async def get_matches(
                 )
 
                 away_team = teams[match["away"]["id"]]
-                away = TeamModel(
+                away = Team(
                     name=away_team["name"],
                     logo=away_team["logo"],
                     shots=away_team["shooting"]["shots"],
@@ -138,7 +135,7 @@ async def get_matches(
                     played=away_team["played"],
                 )
 
-                match_data = MatchModel(
+                match_data = Match(
                     name=match["name"],
                     utc_time=match["utc_time"],
                     finished=match["finished"],
@@ -158,12 +155,13 @@ def export(data: dict[str, Any], file: str) -> None:
 
 async def main() -> None:
     async with AsyncClient(proxies=TEST_HTTP_PROXY) as client:
+        fusion = Fusion(client=client)
         with tqdm(total=10) as pbar:
-            coms_index = await get_coms_index(client, pbar)
+            coms_index = await get_coms_index(fusion, pbar)
             competitions, teams = await get_competitions_and_teams(
-                client, coms_index, pbar
+                fusion, coms_index, pbar
             )
-            matches = await get_matches(client, competitions, teams, pbar)
+            matches = await get_matches(fusion, competitions, teams, pbar)
     export(matches, "matches.json")
 
 
