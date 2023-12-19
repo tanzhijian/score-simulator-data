@@ -1,1085 +1,4 @@
 {
-  "2023-12-16": [
-    {
-      "name": "AFC Bournemouth vs Luton Town",
-      "utc_time": "2023-12-16T15:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "AFC Bournemouth",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t91.svg",
-        "shots": 197,
-        "xg": 22.0,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Luton Town",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t102.svg",
-        "shots": 163,
-        "xg": 14.9,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Chelsea vs Sheffield United",
-      "utc_time": "2023-12-16T15:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "Chelsea",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t8.svg",
-        "shots": 226,
-        "xg": 33.0,
-        "score": 2,
-        "played": 17
-      },
-      "away": {
-        "name": "Sheffield United",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t49.svg",
-        "shots": 140,
-        "xg": 13.0,
-        "score": 0,
-        "played": 17
-      }
-    },
-    {
-      "name": "Manchester City vs Crystal Palace",
-      "utc_time": "2023-12-16T15:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "Manchester City",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t43.svg",
-        "shots": 266,
-        "xg": 32.2,
-        "score": 2,
-        "played": 17
-      },
-      "away": {
-        "name": "Crystal Palace",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t31.svg",
-        "shots": 196,
-        "xg": 21.2,
-        "score": 2,
-        "played": 17
-      }
-    },
-    {
-      "name": "Newcastle United vs Fulham",
-      "utc_time": "2023-12-16T15:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "Newcastle United",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t4.svg",
-        "shots": 239,
-        "xg": 34.9,
-        "score": 3,
-        "played": 17
-      },
-      "away": {
-        "name": "Fulham",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t54.svg",
-        "shots": 186,
-        "xg": 21.6,
-        "score": 0,
-        "played": 17
-      }
-    },
-    {
-      "name": "Burnley vs Everton",
-      "utc_time": "2023-12-16T17:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "Burnley",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t90.svg",
-        "shots": 183,
-        "xg": 15.2,
-        "score": 0,
-        "played": 17
-      },
-      "away": {
-        "name": "Everton",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t11.svg",
-        "shots": 242,
-        "xg": 26.7,
-        "score": 2,
-        "played": 17
-      }
-    },
-    {
-      "name": "Celta Vigo vs Granada",
-      "utc_time": "2023-12-16T13:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Celta Vigo",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/celta.png",
-        "shots": 229,
-        "xg": 22.8,
-        "score": 1,
-        "played": 17
-      },
-      "away": {
-        "name": "Granada",
-        "logo": "https://assets.laliga.com/assets/2023/01/17/small/f5db12f3a29fdfd14a0d50337016dc95.png",
-        "shots": 169,
-        "xg": 18.7,
-        "score": 0,
-        "played": 17
-      }
-    },
-    {
-      "name": "Athletic Club vs Atletico Madrid",
-      "utc_time": "2023-12-16T15:15:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Athletic Club",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/athletic.png",
-        "shots": 233,
-        "xg": 30.0,
-        "score": 2,
-        "played": 17
-      },
-      "away": {
-        "name": "Atletico Madrid",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/atletico.png",
-        "shots": 201,
-        "xg": 27.7,
-        "score": 0,
-        "played": 16
-      }
-    },
-    {
-      "name": "Sevilla vs Getafe",
-      "utc_time": "2023-12-16T17:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Sevilla",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/sevilla.png",
-        "shots": 255,
-        "xg": 18.1,
-        "score": 0,
-        "played": 16
-      },
-      "away": {
-        "name": "Getafe",
-        "logo": "https://assets.laliga.com/assets/2023/05/12/small/dc59645c96bc2c9010341c16dd6d4bfa.png",
-        "shots": 186,
-        "xg": 19.0,
-        "score": 3,
-        "played": 17
-      }
-    },
-    {
-      "name": "Valencia vs Barcelona",
-      "utc_time": "2023-12-16T20:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Valencia",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/valencia.png",
-        "shots": 165,
-        "xg": 17.1,
-        "score": 1,
-        "played": 17
-      },
-      "away": {
-        "name": "Barcelona",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/barcelona.png",
-        "shots": 273,
-        "xg": 37.1,
-        "score": 1,
-        "played": 17
-      }
-    },
-    {
-      "name": "FC Augsburg vs Borussia Dortmund",
-      "utc_time": "2023-12-16T14:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "FC Augsburg",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000010.svg",
-        "shots": 185,
-        "xg": 22.0,
-        "score": 1,
-        "played": 15
-      },
-      "away": {
-        "name": "Borussia Dortmund",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000007.svg",
-        "shots": 226,
-        "xg": 28.5,
-        "score": 1,
-        "played": 15
-      }
-    },
-    {
-      "name": "VfL Bochum vs Union Berlin",
-      "utc_time": "2023-12-16T14:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "VfL Bochum",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000S.svg",
-        "shots": 234,
-        "xg": 21.8,
-        "score": 3,
-        "played": 15
-      },
-      "away": {
-        "name": "Union Berlin",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000V.svg",
-        "shots": 167,
-        "xg": 17.0,
-        "score": 0,
-        "played": 14
-      }
-    },
-    {
-      "name": "SV Darmstadt vs Wolfsburg",
-      "utc_time": "2023-12-16T14:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "SV Darmstadt",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000016.svg",
-        "shots": 186,
-        "xg": 15.4,
-        "score": 0,
-        "played": 15
-      },
-      "away": {
-        "name": "Wolfsburg",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000003.svg",
-        "shots": 187,
-        "xg": 19.4,
-        "score": 1,
-        "played": 15
-      }
-    },
-    {
-      "name": "Mainz 05 vs FC Heidenheim",
-      "utc_time": "2023-12-16T14:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "Mainz 05",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000006.svg",
-        "shots": 195,
-        "xg": 16.7,
-        "score": 0,
-        "played": 15
-      },
-      "away": {
-        "name": "FC Heidenheim",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000018.svg",
-        "shots": 171,
-        "xg": 18.2,
-        "score": 1,
-        "played": 15
-      }
-    },
-    {
-      "name": "RB Leipzig vs TSG Hoffenheim",
-      "utc_time": "2023-12-16T17:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "RB Leipzig",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000017.svg",
-        "shots": 240,
-        "xg": 30.5,
-        "score": 3,
-        "played": 15
-      },
-      "away": {
-        "name": "TSG Hoffenheim",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000002.svg",
-        "shots": 198,
-        "xg": 23.9,
-        "score": 1,
-        "played": 15
-      }
-    },
-    {
-      "name": "Lecce vs Frosinone",
-      "utc_time": "2023-12-16T14:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Lecce",
-        "logo": "https://img.legaseriea.it/vimages/62cef4f6/lecce.png",
-        "shots": 203,
-        "xg": 14.9,
-        "score": 2,
-        "played": 16
-      },
-      "away": {
-        "name": "Frosinone",
-        "logo": "https://img.legaseriea.it/vimages/62cfdfec/frosinone.png",
-        "shots": 177,
-        "xg": 18.6,
-        "score": 1,
-        "played": 16
-      }
-    },
-    {
-      "name": "SSC Napoli vs Cagliari",
-      "utc_time": "2023-12-16T17:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "SSC Napoli",
-        "logo": "https://img.legaseriea.it/vimages/62cef532/napoli.png",
-        "shots": 276,
-        "xg": 28.7,
-        "score": 2,
-        "played": 16
-      },
-      "away": {
-        "name": "Cagliari",
-        "logo": "https://img.legaseriea.it/vimages/62cfd202/cagliari.png",
-        "shots": 196,
-        "xg": 18.1,
-        "score": 1,
-        "played": 16
-      }
-    },
-    {
-      "name": "Torino vs Empoli",
-      "utc_time": "2023-12-16T19:45:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Torino",
-        "logo": "https://img.legaseriea.it/vimages/62cef5cb/torino.png",
-        "shots": 170,
-        "xg": 16.4,
-        "score": 1,
-        "played": 16
-      },
-      "away": {
-        "name": "Empoli",
-        "logo": "https://img.legaseriea.it/vimages/62cef42e/empoli.png",
-        "shots": 171,
-        "xg": 15.7,
-        "score": 0,
-        "played": 16
-      }
-    },
-    {
-      "name": "Le Havre vs Nice",
-      "utc_time": "2023-12-16T16:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Le Havre",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/5.png",
-        "shots": 181,
-        "xg": 17.8,
-        "score": 3,
-        "played": 16
-      },
-      "away": {
-        "name": "Nice",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/30.png",
-        "shots": 212,
-        "xg": 21.9,
-        "score": 1,
-        "played": 16
-      }
-    },
-    {
-      "name": "Lens vs Reims",
-      "utc_time": "2023-12-16T20:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Lens",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/6.png",
-        "shots": 223,
-        "xg": 23.7,
-        "score": 2,
-        "played": 16
-      },
-      "away": {
-        "name": "Reims",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/41.png",
-        "shots": 180,
-        "xg": 20.6,
-        "score": 0,
-        "played": 16
-      }
-    }
-  ],
-  "2023-12-17": [
-    {
-      "name": "Arsenal vs Brighton & Hove Albion",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "Arsenal",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t3.svg",
-        "shots": 237,
-        "xg": 29.0,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Brighton & Hove Albion",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t36.svg",
-        "shots": 246,
-        "xg": 27.5,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Brentford vs Aston Villa",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "Brentford",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t94.svg",
-        "shots": 226,
-        "xg": 28.5,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Aston Villa",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t7.svg",
-        "shots": 234,
-        "xg": 28.8,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "West Ham United vs Wolverhampton Wanderers",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "West Ham United",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t21.svg",
-        "shots": 184,
-        "xg": 23.2,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Wolverhampton Wanderers",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t39.svg",
-        "shots": 178,
-        "xg": 20.4,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Liverpool vs Manchester United",
-      "utc_time": "2023-12-17T16:30:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Premier League",
-        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
-      },
-      "home": {
-        "name": "Liverpool",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t14.svg",
-        "shots": 276,
-        "xg": 32.1,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Manchester United",
-        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t1.svg",
-        "shots": 240,
-        "xg": 25.5,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Almeria vs Mallorca",
-      "utc_time": "2023-12-17T13:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Almeria",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/almeria.png",
-        "shots": 211,
-        "xg": 22.6,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Mallorca",
-        "logo": "https://assets.laliga.com/assets/2023/03/22/small/013ae97735bc8e519dcf30f6826168ca.png",
-        "shots": 162,
-        "xg": 17.2,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Real Sociedad vs Real Betis",
-      "utc_time": "2023-12-17T15:15:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Real Sociedad",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/real-sociedad.png",
-        "shots": 198,
-        "xg": 22.1,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Real Betis",
-        "logo": "https://assets.laliga.com/assets/2022/09/15/small/e4a09419d3bd115b8f3dab73d480e146.png",
-        "shots": 205,
-        "xg": 19.0,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Las Palmas vs Cadiz",
-      "utc_time": "2023-12-17T17:30:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Las Palmas",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/las-palmas.png",
-        "shots": 165,
-        "xg": 14.2,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Cadiz",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/cadiz.png",
-        "shots": 139,
-        "xg": 12.7,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Real Madrid vs Villarreal",
-      "utc_time": "2023-12-17T20:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Real Madrid",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/real-madrid.png",
-        "shots": 266,
-        "xg": 28.4,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Villarreal",
-        "logo": "https://assets.laliga.com/assets/2019/06/07/small/villarreal.png",
-        "shots": 180,
-        "xg": 22.3,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "SC Freiburg vs 1. FC Köln",
-      "utc_time": "2023-12-17T14:30:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "SC Freiburg",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000A.svg",
-        "shots": 166,
-        "xg": 19.4,
-        "score": null,
-        "played": 14
-      },
-      "away": {
-        "name": "1. FC Köln",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000008.svg",
-        "shots": 170,
-        "xg": 15.8,
-        "score": null,
-        "played": 14
-      }
-    },
-    {
-      "name": "Bayer Leverkusen vs Eintracht Frankfurt",
-      "utc_time": "2023-12-17T16:30:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "Bayer Leverkusen",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000B.svg",
-        "shots": 234,
-        "xg": 27.9,
-        "score": null,
-        "played": 14
-      },
-      "away": {
-        "name": "Eintracht Frankfurt",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000F.svg",
-        "shots": 155,
-        "xg": 19.6,
-        "score": null,
-        "played": 14
-      }
-    },
-    {
-      "name": "Bayern München vs VfB Stuttgart",
-      "utc_time": "2023-12-17T18:30:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Bundesliga",
-        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
-      },
-      "home": {
-        "name": "Bayern München",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000G.svg",
-        "shots": 256,
-        "xg": 37.9,
-        "score": null,
-        "played": 13
-      },
-      "away": {
-        "name": "VfB Stuttgart",
-        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000D.svg",
-        "shots": 226,
-        "xg": 35.0,
-        "score": null,
-        "played": 14
-      }
-    },
-    {
-      "name": "AC Milan vs Monza",
-      "utc_time": "2023-12-17T11:30:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "AC Milan",
-        "logo": "https://img.legaseriea.it/vimages/62cef513/milan.png",
-        "shots": 176,
-        "xg": 21.2,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Monza",
-        "logo": "https://img.legaseriea.it/vimages/62c6acbd/monza.png",
-        "shots": 198,
-        "xg": 16.2,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Fiorentina vs Hellas Verona",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Fiorentina",
-        "logo": "https://img.legaseriea.it/vimages/62cef452/fiorentina.png",
-        "shots": 211,
-        "xg": 18.4,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Hellas Verona",
-        "logo": "https://img.legaseriea.it/vimages/62cfe8b8/colore=BLUE.png",
-        "shots": 158,
-        "xg": 11.3,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Udinese vs Sassuolo",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Udinese",
-        "logo": "https://img.legaseriea.it/vimages/62cef5e9/udinese.png",
-        "shots": 183,
-        "xg": 18.4,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Sassuolo",
-        "logo": "https://img.legaseriea.it/vimages/62cef590/sassuolo.png",
-        "shots": 204,
-        "xg": 17.8,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Bologna vs Roma",
-      "utc_time": "2023-12-17T17:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Bologna",
-        "logo": "https://img.legaseriea.it/vimages/62cef3f6/bologna.png",
-        "shots": 164,
-        "xg": 18.9,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Roma",
-        "logo": "https://img.legaseriea.it/vimages/62cfd5ce/roma.png",
-        "shots": 184,
-        "xg": 21.0,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Lazio vs Inter",
-      "utc_time": "2023-12-17T19:45:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Lazio",
-        "logo": "https://img.legaseriea.it/vimages/62cef4d5/lazio.png",
-        "shots": 168,
-        "xg": 18.3,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Inter",
-        "logo": "https://img.legaseriea.it/vimages/62cef496/inter.png",
-        "shots": 233,
-        "xg": 31.6,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Nantes vs Brest",
-      "utc_time": "2023-12-17T12:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Nantes",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/12.png",
-        "shots": 186,
-        "xg": 18.7,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Brest",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/44.png",
-        "shots": 209,
-        "xg": 20.0,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Lorient vs Strasbourg",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Lorient",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/7.png",
-        "shots": 139,
-        "xg": 14.1,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Strasbourg",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/15.png",
-        "shots": 145,
-        "xg": 17.3,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Metz vs Montpellier",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Metz",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/8.png",
-        "shots": 135,
-        "xg": 12.9,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Montpellier",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/10.png",
-        "shots": 210,
-        "xg": 21.9,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Toulouse vs Rennes",
-      "utc_time": "2023-12-17T14:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Toulouse",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/16.png",
-        "shots": 164,
-        "xg": 15.5,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Rennes",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/14.png",
-        "shots": 212,
-        "xg": 21.9,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Marseille vs Clermont Foot",
-      "utc_time": "2023-12-17T16:05:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Marseille",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/1.png",
-        "shots": 204,
-        "xg": 24.2,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Clermont Foot",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/40.png",
-        "shots": 184,
-        "xg": 16.2,
-        "score": null,
-        "played": 15
-      }
-    },
-    {
-      "name": "Lille vs Paris Saint-Germain",
-      "utc_time": "2023-12-17T19:45:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Ligue 1",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
-      },
-      "home": {
-        "name": "Lille",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/158.png",
-        "shots": 190,
-        "xg": 21.4,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Paris Saint-Germain",
-        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/13.png",
-        "shots": 236,
-        "xg": 32.2,
-        "score": null,
-        "played": 15
-      }
-    }
-  ],
-  "2023-12-18": [
-    {
-      "name": "Girona vs Deportivo Alaves",
-      "utc_time": "2023-12-18T20:00:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "LaLiga",
-        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
-      },
-      "home": {
-        "name": "Girona",
-        "logo": "https://assets.laliga.com/assets/2022/06/22/small/8f43addbb29e4a72f5e90b6edfe4728f.png",
-        "shots": 215,
-        "xg": 30.4,
-        "score": null,
-        "played": 16
-      },
-      "away": {
-        "name": "Deportivo Alaves",
-        "logo": "https://assets.laliga.com/assets/2020/09/01/small/27002754a98bf535807fe49a24cc63ea.png",
-        "shots": 211,
-        "xg": 20.7,
-        "score": null,
-        "played": 16
-      }
-    },
-    {
-      "name": "Atalanta vs Salernitana",
-      "utc_time": "2023-12-18T19:45:00.000Z",
-      "finished": false,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Atalanta",
-        "logo": "https://img.legaseriea.it/vimages/62cfd69d/atalanta.png",
-        "shots": 206,
-        "xg": 19.5,
-        "score": null,
-        "played": 15
-      },
-      "away": {
-        "name": "Salernitana",
-        "logo": "https://img.legaseriea.it/vimages/62cef553/salernitana.png",
-        "shots": 161,
-        "xg": 11.7,
-        "score": null,
-        "played": 15
-      }
-    }
-  ],
   "2023-12-19": [
     {
       "name": "Rayo Vallecano vs Valencia",
@@ -1101,7 +20,7 @@
         "name": "Valencia",
         "logo": "https://assets.laliga.com/assets/2019/06/07/small/valencia.png",
         "shots": 165,
-        "xg": 17.1,
+        "xg": 17.2,
         "score": null,
         "played": 17
       }
@@ -1118,7 +37,7 @@
         "name": "Atletico Madrid",
         "logo": "https://assets.laliga.com/assets/2019/06/07/small/atletico.png",
         "shots": 201,
-        "xg": 27.7,
+        "xg": 27.8,
         "score": null,
         "played": 16
       },
@@ -1126,7 +45,7 @@
         "name": "Getafe",
         "logo": "https://assets.laliga.com/assets/2023/05/12/small/dc59645c96bc2c9010341c16dd6d4bfa.png",
         "shots": 186,
-        "xg": 19.0,
+        "xg": 19.2,
         "score": null,
         "played": 17
       }
@@ -1176,7 +95,7 @@
         "name": "RB Leipzig",
         "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000017.svg",
         "shots": 240,
-        "xg": 30.5,
+        "xg": 30.4,
         "score": null,
         "played": 15
       }
@@ -1193,7 +112,7 @@
         "name": "Borussia Dortmund",
         "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000007.svg",
         "shots": 226,
-        "xg": 28.5,
+        "xg": 28.4,
         "score": null,
         "played": 15
       },
@@ -1201,7 +120,7 @@
         "name": "Mainz 05",
         "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000006.svg",
         "shots": 195,
-        "xg": 16.7,
+        "xg": 16.9,
         "score": null,
         "played": 15
       }
@@ -1218,7 +137,7 @@
         "name": "TSG Hoffenheim",
         "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000002.svg",
         "shots": 198,
-        "xg": 23.9,
+        "xg": 23.7,
         "score": null,
         "played": 15
       },
@@ -1226,9 +145,715 @@
         "name": "SV Darmstadt",
         "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000016.svg",
         "shots": 186,
-        "xg": 15.4,
+        "xg": 15.5,
         "score": null,
         "played": 15
+      }
+    }
+  ],
+  "2023-12-20": [
+    {
+      "name": "Barcelona vs Almeria",
+      "utc_time": "2023-12-20T18:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Barcelona",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/barcelona.png",
+        "shots": 273,
+        "xg": 37.3,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Almeria",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/almeria.png",
+        "shots": 218,
+        "xg": 22.9,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Athletic Club vs Las Palmas",
+      "utc_time": "2023-12-20T20:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Athletic Club",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/athletic.png",
+        "shots": 233,
+        "xg": 29.9,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Las Palmas",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/las-palmas.png",
+        "shots": 172,
+        "xg": 14.9,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Villarreal vs Celta Vigo",
+      "utc_time": "2023-12-20T20:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Villarreal",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/villarreal.png",
+        "shots": 183,
+        "xg": 23.0,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Celta Vigo",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/celta.png",
+        "shots": 229,
+        "xg": 22.8,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Union Berlin vs 1. FC Köln",
+      "utc_time": "2023-12-20T17:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Bundesliga",
+        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
+      },
+      "home": {
+        "name": "Union Berlin",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000V.svg",
+        "shots": 167,
+        "xg": 17.0,
+        "score": null,
+        "played": 14
+      },
+      "away": {
+        "name": "1. FC Köln",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000008.svg",
+        "shots": 177,
+        "xg": 16.9,
+        "score": null,
+        "played": 15
+      }
+    },
+    {
+      "name": "Bayer Leverkusen vs VfL Bochum",
+      "utc_time": "2023-12-20T19:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Bundesliga",
+        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
+      },
+      "home": {
+        "name": "Bayer Leverkusen",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000B.svg",
+        "shots": 248,
+        "xg": 30.4,
+        "score": null,
+        "played": 15
+      },
+      "away": {
+        "name": "VfL Bochum",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000S.svg",
+        "shots": 234,
+        "xg": 21.7,
+        "score": null,
+        "played": 15
+      }
+    },
+    {
+      "name": "Eintracht Frankfurt vs Borussia M'Gladbach",
+      "utc_time": "2023-12-20T19:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Bundesliga",
+        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
+      },
+      "home": {
+        "name": "Eintracht Frankfurt",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000F.svg",
+        "shots": 159,
+        "xg": 19.9,
+        "score": null,
+        "played": 15
+      },
+      "away": {
+        "name": "Borussia M'Gladbach",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000004.svg",
+        "shots": 196,
+        "xg": 22.9,
+        "score": null,
+        "played": 15
+      }
+    },
+    {
+      "name": "FC Heidenheim vs SC Freiburg",
+      "utc_time": "2023-12-20T19:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Bundesliga",
+        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
+      },
+      "home": {
+        "name": "FC Heidenheim",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000018.svg",
+        "shots": 171,
+        "xg": 18.1,
+        "score": null,
+        "played": 15
+      },
+      "away": {
+        "name": "SC Freiburg",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000A.svg",
+        "shots": 188,
+        "xg": 22.4,
+        "score": null,
+        "played": 15
+      }
+    },
+    {
+      "name": "VfB Stuttgart vs FC Augsburg",
+      "utc_time": "2023-12-20T19:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Bundesliga",
+        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
+      },
+      "home": {
+        "name": "VfB Stuttgart",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000D.svg",
+        "shots": 232,
+        "xg": 35.4,
+        "score": null,
+        "played": 15
+      },
+      "away": {
+        "name": "FC Augsburg",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000010.svg",
+        "shots": 185,
+        "xg": 22.0,
+        "score": null,
+        "played": 15
+      }
+    },
+    {
+      "name": "Wolfsburg vs Bayern München",
+      "utc_time": "2023-12-20T19:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Bundesliga",
+        "logo": "https://www.bundesliga.com/assets/favicons/safari-pinned-tab_new.svg"
+      },
+      "home": {
+        "name": "Wolfsburg",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-000003.svg",
+        "shots": 187,
+        "xg": 19.3,
+        "score": null,
+        "played": 15
+      },
+      "away": {
+        "name": "Bayern München",
+        "logo": "https://www.bundesliga.com/assets/clublogo/DFL-CLU-00000G.svg",
+        "shots": 273,
+        "xg": 40.8,
+        "score": null,
+        "played": 14
+      }
+    },
+    {
+      "name": "Brest vs Lorient",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Brest",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/44.png",
+        "shots": 223,
+        "xg": 21.9,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Lorient",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/7.png",
+        "shots": 146,
+        "xg": 14.9,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Clermont Foot vs Rennes",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Clermont Foot",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/40.png",
+        "shots": 189,
+        "xg": 16.4,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Rennes",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/14.png",
+        "shots": 223,
+        "xg": 22.6,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Lyon vs Nantes",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Lyon",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/159.png",
+        "shots": 203,
+        "xg": 20.5,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Nantes",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/12.png",
+        "shots": 198,
+        "xg": 19.7,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Montpellier vs Marseille",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Montpellier",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/10.png",
+        "shots": 216,
+        "xg": 22.4,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Marseille",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/1.png",
+        "shots": 219,
+        "xg": 26.6,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Nice vs Lens",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Nice",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/30.png",
+        "shots": 212,
+        "xg": 21.8,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Lens",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/6.png",
+        "shots": 223,
+        "xg": 23.8,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Paris Saint-Germain vs Metz",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Paris Saint-Germain",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/13.png",
+        "shots": 245,
+        "xg": 33.6,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Metz",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/8.png",
+        "shots": 154,
+        "xg": 13.7,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Reims vs Le Havre",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Reims",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/41.png",
+        "shots": 180,
+        "xg": 20.6,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Le Havre",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/5.png",
+        "shots": 181,
+        "xg": 18.0,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Strasbourg vs Lille",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Strasbourg",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/15.png",
+        "shots": 157,
+        "xg": 18.2,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Lille",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/158.png",
+        "shots": 205,
+        "xg": 22.8,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Toulouse vs Monaco",
+      "utc_time": "2023-12-20T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Ligue 1",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Competition/Favicon/L1-favicon.png"
+      },
+      "home": {
+        "name": "Toulouse",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/16.png",
+        "shots": 179,
+        "xg": 16.4,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Monaco",
+        "logo": "https://www.ligue1.com/-/media/Project/LFP/shared/Images/Clubs/2023-2024/9.png",
+        "shots": 247,
+        "xg": 23.2,
+        "score": null,
+        "played": 16
+      }
+    }
+  ],
+  "2023-12-21": [
+    {
+      "name": "Crystal Palace vs Brighton & Hove Albion",
+      "utc_time": "2023-12-21T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Premier League",
+        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
+      },
+      "home": {
+        "name": "Crystal Palace",
+        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t31.svg",
+        "shots": 196,
+        "xg": 21.2,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Brighton & Hove Albion",
+        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t36.svg",
+        "shots": 252,
+        "xg": 28.2,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Cadiz vs Real Sociedad",
+      "utc_time": "2023-12-21T18:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Cadiz",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/cadiz.png",
+        "shots": 152,
+        "xg": 14.2,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Real Sociedad",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/real-sociedad.png",
+        "shots": 210,
+        "xg": 23.2,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Real Betis vs Girona",
+      "utc_time": "2023-12-21T18:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Real Betis",
+        "logo": "https://assets.laliga.com/assets/2022/09/15/small/e4a09419d3bd115b8f3dab73d480e146.png",
+        "shots": 217,
+        "xg": 20.1,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Girona",
+        "logo": "https://assets.laliga.com/assets/2022/06/22/small/8f43addbb29e4a72f5e90b6edfe4728f.png",
+        "shots": 223,
+        "xg": 32.0,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Deportivo Alaves vs Real Madrid",
+      "utc_time": "2023-12-21T20:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Deportivo Alaves",
+        "logo": "https://assets.laliga.com/assets/2020/09/01/small/27002754a98bf535807fe49a24cc63ea.png",
+        "shots": 223,
+        "xg": 21.3,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Real Madrid",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/real-madrid.png",
+        "shots": 288,
+        "xg": 30.6,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Mallorca vs Osasuna",
+      "utc_time": "2023-12-21T20:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Mallorca",
+        "logo": "https://assets.laliga.com/assets/2023/03/22/small/013ae97735bc8e519dcf30f6826168ca.png",
+        "shots": 182,
+        "xg": 19.1,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Osasuna",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/osasuna.png",
+        "shots": 189,
+        "xg": 18.8,
+        "score": null,
+        "played": 17
+      }
+    }
+  ],
+  "2023-12-22": [
+    {
+      "name": "Aston Villa vs Sheffield United",
+      "utc_time": "2023-12-22T20:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Premier League",
+        "logo": "https://www.premierleague.com/resources/rebrand/v7.129.2/i/elements/pl-main-logo.png"
+      },
+      "home": {
+        "name": "Aston Villa",
+        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t7.svg",
+        "shots": 249,
+        "xg": 30.2,
+        "score": null,
+        "played": 17
+      },
+      "away": {
+        "name": "Sheffield United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/rb/t49.svg",
+        "shots": 140,
+        "xg": 12.9,
+        "score": null,
+        "played": 17
+      }
+    },
+    {
+      "name": "Empoli vs Lazio",
+      "utc_time": "2023-12-22T17:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Empoli",
+        "logo": "https://img.legaseriea.it/vimages/62cef42e/empoli.png",
+        "shots": 171,
+        "xg": 15.7,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Lazio",
+        "logo": "https://img.legaseriea.it/vimages/62cef4d5/lazio.png",
+        "shots": 181,
+        "xg": 19.8,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Sassuolo vs Genoa",
+      "utc_time": "2023-12-22T17:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Sassuolo",
+        "logo": "https://img.legaseriea.it/vimages/62cef590/sassuolo.png",
+        "shots": 223,
+        "xg": 20.8,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Genoa",
+        "logo": "https://img.legaseriea.it/vimages/649e8a06/GENOA-1.png",
+        "shots": 163,
+        "xg": 13.5,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Monza vs Fiorentina",
+      "utc_time": "2023-12-22T19:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Monza",
+        "logo": "https://img.legaseriea.it/vimages/62c6acbd/monza.png",
+        "shots": 219,
+        "xg": 17.8,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "Fiorentina",
+        "logo": "https://img.legaseriea.it/vimages/62cef452/fiorentina.png",
+        "shots": 216,
+        "xg": 18.9,
+        "score": null,
+        "played": 16
+      }
+    },
+    {
+      "name": "Salernitana vs AC Milan",
+      "utc_time": "2023-12-22T19:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Salernitana",
+        "logo": "https://img.legaseriea.it/vimages/62cef553/salernitana.png",
+        "shots": 171,
+        "xg": 12.9,
+        "score": null,
+        "played": 16
+      },
+      "away": {
+        "name": "AC Milan",
+        "logo": "https://img.legaseriea.it/vimages/62cef513/milan.png",
+        "shots": 193,
+        "xg": 23.2,
+        "score": null,
+        "played": 16
       }
     }
   ]

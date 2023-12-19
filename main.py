@@ -1,13 +1,14 @@
 import asyncio
 import json
 import os
-from typing import Any
 from datetime import date as datelib, timedelta
+from typing import TypedDict
 
-from pydantic import BaseModel
 from dotenv import load_dotenv
 from httpx import AsyncClient
 from fusion_stat import Fusion
+from fusion_stat.models.competitions import CompetitionParamsTypes
+from fusion_stat.models.competition import InfoTypes, TeamTypes
 from tqdm import tqdm
 
 
@@ -25,12 +26,12 @@ TEST_HTTP_PROXY = read_env("TEST_HTTP_PROXY")
 DELAY = 2
 
 
-class Competition(BaseModel):
+class Competition(TypedDict):
     name: str
     logo: str
 
 
-class Team(BaseModel):
+class Team(TypedDict):
     name: str
     logo: str
     shots: int
@@ -39,7 +40,7 @@ class Team(BaseModel):
     played: int
 
 
-class Match(BaseModel):
+class Match(TypedDict):
     name: str
     utc_time: str
     finished: bool
@@ -59,7 +60,7 @@ def generate_recent_dates() -> list[str]:
 async def get_coms_index(
     fusion: Fusion,
     pbar: tqdm,
-) -> list[dict[str, Any]]:
+) -> list[CompetitionParamsTypes]:
     competitions = await fusion.get_competitions()
     pbar.update(1)
     return competitions.index()
@@ -67,11 +68,11 @@ async def get_coms_index(
 
 async def get_competitions_and_teams(
     fusion: Fusion,
-    coms_index: list[dict[str, Any]],
+    coms_index: list[CompetitionParamsTypes],
     pbar: tqdm,
-) -> tuple[dict[str, Any], dict[str, Any]]:
-    competitions = {}
-    teams = {}
+) -> tuple[dict[str, InfoTypes], dict[str, TeamTypes]]:
+    competitions: dict[str, InfoTypes] = {}
+    teams: dict[str, TeamTypes] = {}
     for params in coms_index:
         await asyncio.sleep(DELAY)
 
@@ -88,11 +89,11 @@ async def get_competitions_and_teams(
 
 async def get_matches(
     fusion: Fusion,
-    competitions: dict[str, Any],
-    teams: dict[str, Any],
+    competitions: dict[str, InfoTypes],
+    teams: dict[str, TeamTypes],
     pbar: tqdm,
-) -> dict[str, list[Any]]:
-    matches_data = {}
+) -> dict[str, list[Match]]:
+    matches_data: dict[str, list[Match]] = {}
     dates = generate_recent_dates()
     for date in dates:
         await asyncio.sleep(DELAY)
@@ -100,7 +101,7 @@ async def get_matches(
         matches = await fusion.get_matches(date=date)
         pbar.update(1)
 
-        day_matches = []
+        day_matches: list[Match] = []
         if matches.info["matches"]:
             for match in matches.info["matches"]:
                 competition = Competition(
@@ -119,7 +120,7 @@ async def get_matches(
                 home = Team(
                     name=home_team["name"],
                     logo=home_team["logo"],
-                    shots=home_team["shooting"]["shots"],
+                    shots=int(home_team["shooting"]["shots"]),
                     xg=home_team["shooting"]["xg"],
                     score=home_score,
                     played=home_team["played"],
@@ -129,7 +130,7 @@ async def get_matches(
                 away = Team(
                     name=away_team["name"],
                     logo=away_team["logo"],
-                    shots=away_team["shooting"]["shots"],
+                    shots=int(away_team["shooting"]["shots"]),
                     xg=away_team["shooting"]["xg"],
                     score=away_score,
                     played=away_team["played"],
@@ -143,12 +144,12 @@ async def get_matches(
                     home=home,
                     away=away,
                 )
-                day_matches.append(match_data.model_dump())
+                day_matches.append(match_data)
         matches_data[date] = day_matches
     return matches_data
 
 
-def export(data: dict[str, Any], file: str) -> None:
+def export(data: dict[str, list[Match]], file: str) -> None:
     with open(file, "w") as f:
         f.write(json.dumps(data, indent=2, ensure_ascii=False))
 
