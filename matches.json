@@ -1,106 +1,4 @@
 {
-  "2024-01-06": [
-    {
-      "name": "Inter vs Hellas Verona",
-      "utc_time": "2024-01-06T11:30:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Inter",
-        "logo": "https://img.legaseriea.it/vimages/62cef496/inter.png",
-        "shots": 296,
-        "xg": 39.8,
-        "score": 2,
-        "played": 19
-      },
-      "away": {
-        "name": "Hellas Verona",
-        "logo": "https://img.legaseriea.it/vimages/62cfe8b8/colore=BLUE.png",
-        "shots": 207,
-        "xg": 16.8,
-        "score": 1,
-        "played": 19
-      }
-    },
-    {
-      "name": "Frosinone vs Monza",
-      "utc_time": "2024-01-06T14:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Frosinone",
-        "logo": "https://img.legaseriea.it/vimages/62cfdfec/frosinone.png",
-        "shots": 206,
-        "xg": 21.4,
-        "score": 2,
-        "played": 19
-      },
-      "away": {
-        "name": "Monza",
-        "logo": "https://img.legaseriea.it/vimages/62c6acbd/monza.png",
-        "shots": 240,
-        "xg": 20.9,
-        "score": 3,
-        "played": 19
-      }
-    },
-    {
-      "name": "Lecce vs Cagliari",
-      "utc_time": "2024-01-06T17:00:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Lecce",
-        "logo": "https://img.legaseriea.it/vimages/62cef4f6/lecce.png",
-        "shots": 244,
-        "xg": 18.8,
-        "score": 1,
-        "played": 19
-      },
-      "away": {
-        "name": "Cagliari",
-        "logo": "https://img.legaseriea.it/vimages/62cfd202/cagliari.png",
-        "shots": 236,
-        "xg": 21.5,
-        "score": 1,
-        "played": 19
-      }
-    },
-    {
-      "name": "Sassuolo vs Fiorentina",
-      "utc_time": "2024-01-06T19:45:00.000Z",
-      "finished": true,
-      "competition": {
-        "name": "Serie A",
-        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
-      },
-      "home": {
-        "name": "Sassuolo",
-        "logo": "https://img.legaseriea.it/vimages/62cef590/sassuolo.png",
-        "shots": 254,
-        "xg": 23.5,
-        "score": 1,
-        "played": 19
-      },
-      "away": {
-        "name": "Fiorentina",
-        "logo": "https://img.legaseriea.it/vimages/62cef452/fiorentina.png",
-        "shots": 250,
-        "xg": 22.7,
-        "score": 0,
-        "played": 19
-      }
-    }
-  ],
   "2024-01-07": [
     {
       "name": "Empoli vs AC Milan",
@@ -113,16 +11,16 @@
       "home": {
         "name": "Empoli",
         "logo": "https://img.legaseriea.it/vimages/62cef42e/empoli.png",
-        "shots": 197,
-        "xg": 16.7,
+        "shots": 214,
+        "xg": 17.6,
         "score": 0,
         "played": 19
       },
       "away": {
         "name": "AC Milan",
         "logo": "https://img.legaseriea.it/vimages/62cef513/milan.png",
-        "shots": 234,
-        "xg": 26.9,
+        "shots": 246,
+        "xg": 28.6,
         "score": 3,
         "played": 19
       }
@@ -130,7 +28,7 @@
     {
       "name": "Torino vs SSC Napoli",
       "utc_time": "2024-01-07T14:00:00.000Z",
-      "finished": false,
+      "finished": true,
       "competition": {
         "name": "Serie A",
         "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
@@ -138,16 +36,16 @@
       "home": {
         "name": "Torino",
         "logo": "https://img.legaseriea.it/vimages/62cef5cb/torino.png",
-        "shots": 190,
-        "xg": 17.4,
-        "score": 1,
+        "shots": 200,
+        "xg": 19.3,
+        "score": 3,
         "played": 19
       },
       "away": {
         "name": "SSC Napoli",
         "logo": "https://img.legaseriea.it/vimages/62cef532/napoli.png",
-        "shots": 308,
-        "xg": 31.3,
+        "shots": 318,
+        "xg": 32.3,
         "score": 0,
         "played": 19
       }
@@ -155,7 +53,7 @@
     {
       "name": "Udinese vs Lazio",
       "utc_time": "2024-01-07T14:00:00.000Z",
-      "finished": false,
+      "finished": true,
       "competition": {
         "name": "Serie A",
         "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
@@ -163,24 +61,24 @@
       "home": {
         "name": "Udinese",
         "logo": "https://img.legaseriea.it/vimages/62cef5e9/udinese.png",
-        "shots": 217,
-        "xg": 21.1,
-        "score": 0,
+        "shots": 230,
+        "xg": 21.9,
+        "score": 1,
         "played": 19
       },
       "away": {
         "name": "Lazio",
         "logo": "https://img.legaseriea.it/vimages/62cef4d5/lazio.png",
-        "shots": 208,
-        "xg": 23.6,
-        "score": 1,
+        "shots": 215,
+        "xg": 24.1,
+        "score": 2,
         "played": 19
       }
     },
     {
       "name": "Salernitana vs Juventus",
       "utc_time": "2024-01-07T17:00:00.000Z",
-      "finished": false,
+      "finished": true,
       "competition": {
         "name": "Serie A",
         "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
@@ -188,24 +86,24 @@
       "home": {
         "name": "Salernitana",
         "logo": "https://img.legaseriea.it/vimages/62cef553/salernitana.png",
-        "shots": 199,
-        "xg": 14.9,
-        "score": null,
-        "played": 18
+        "shots": 207,
+        "xg": 15.6,
+        "score": 1,
+        "played": 19
       },
       "away": {
         "name": "Juventus",
         "logo": "https://img.legaseriea.it/vimages/62cfda28/colore=BLACK.png",
-        "shots": 242,
-        "xg": 27.6,
-        "score": null,
-        "played": 18
+        "shots": 260,
+        "xg": 29.6,
+        "score": 2,
+        "played": 19
       }
     },
     {
       "name": "Roma vs Atalanta",
       "utc_time": "2024-01-07T19:45:00.000Z",
-      "finished": false,
+      "finished": true,
       "competition": {
         "name": "Serie A",
         "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
@@ -213,21 +111,22 @@
       "home": {
         "name": "Roma",
         "logo": "https://img.legaseriea.it/vimages/62cfd5ce/roma.png",
-        "shots": 220,
-        "xg": 23.9,
-        "score": null,
-        "played": 18
+        "shots": 235,
+        "xg": 25.9,
+        "score": 1,
+        "played": 19
       },
       "away": {
         "name": "Atalanta",
         "logo": "https://img.legaseriea.it/vimages/62cfd69d/atalanta.png",
-        "shots": 255,
-        "xg": 23.6,
-        "score": null,
-        "played": 18
+        "shots": 263,
+        "xg": 24.4,
+        "score": 1,
+        "played": 19
       }
     }
   ],
   "2024-01-08": [],
-  "2024-01-09": []
+  "2024-01-09": [],
+  "2024-01-10": []
 }

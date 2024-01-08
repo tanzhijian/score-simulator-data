@@ -6,12 +6,6 @@ from typing import TypedDict
 
 from dotenv import get_key
 from fusion_stat import Fusion
-from fusion_stat.models.competition import (
-    InfoDict as FusionCompetitionInfoDict,
-)
-from fusion_stat.models.competition import (
-    TeamDict as FusionCompetitionTeamDict,
-)
 from fusion_stat.models.competitions import (
     CompetitionParamsDict as FusionCompetitionParamsDict,
 )
@@ -62,33 +56,41 @@ async def get_fusion_coms_params(
     return fusion_coms.get_params()
 
 
-async def get_fusion_coms_and_teams(
+async def get_coms_and_teams(
     fusion: Fusion,
     fusion_coms_params: list[FusionCompetitionParamsDict],
     pbar: tqdm,
-) -> tuple[
-    dict[str, FusionCompetitionInfoDict], dict[str, FusionCompetitionTeamDict]
-]:
-    fusion_coms: dict[str, FusionCompetitionInfoDict] = {}
-    fusion_teams: dict[str, FusionCompetitionTeamDict] = {}
+) -> tuple[dict[str, CompetitionDict], dict[str, TeamDict]]:
+    coms: dict[str, CompetitionDict] = {}
+    teams: dict[str, TeamDict] = {}
     for params in fusion_coms_params:
         await asyncio.sleep(DELAY)
 
         fusion_com = await fusion.get_competition(**params)
         pbar.update(1)
 
-        fusion_coms[fusion_com.info["id"]] = fusion_com.info
+        coms[fusion_com.info["id"]] = CompetitionDict(
+            name=fusion_com.info["name"],
+            logo=fusion_com.info["logo"],
+        )
 
         for team in fusion_com.teams:
-            fusion_teams[team["id"]] = team
+            teams[team["id"]] = TeamDict(
+                name=team["name"],
+                logo=team["logo"],
+                shots=team["shooting"]["shots"],
+                xg=team["shooting"]["xg"],
+                score=None,
+                played=team["played"],
+            )
 
-    return fusion_coms, fusion_teams
+    return coms, teams
 
 
 async def get_matches(
     fusion: Fusion,
-    fusion_coms: dict[str, FusionCompetitionInfoDict],
-    fusion_teams: dict[str, FusionCompetitionTeamDict],
+    coms: dict[str, CompetitionDict],
+    teams: dict[str, TeamDict],
     pbar: tqdm,
 ) -> dict[str, list[MatchDict]]:
     matches: dict[str, list[MatchDict]] = {}
@@ -102,10 +104,7 @@ async def get_matches(
         day_matches: list[MatchDict] = []
         if items := fusion_matches.items:
             for fusion_match in items:
-                competition = CompetitionDict(
-                    name=fusion_match["competition"]["name"],
-                    logo=fusion_coms[fusion_match["competition"]["id"]]["logo"],
-                )
+                com = coms[fusion_match["competition"]["id"]]
 
                 if fusion_match["score"]:
                     home_score, away_score = [
@@ -115,31 +114,16 @@ async def get_matches(
                 else:
                     home_score, away_score = None, None
 
-                home_team = fusion_teams[fusion_match["home"]["id"]]
-                home = TeamDict(
-                    name=home_team["name"],
-                    logo=home_team["logo"],
-                    shots=int(home_team["shooting"]["shots"]),
-                    xg=home_team["shooting"]["xg"],
-                    score=home_score,
-                    played=home_team["played"],
-                )
-
-                away_team = fusion_teams[fusion_match["away"]["id"]]
-                away = TeamDict(
-                    name=away_team["name"],
-                    logo=away_team["logo"],
-                    shots=int(away_team["shooting"]["shots"]),
-                    xg=away_team["shooting"]["xg"],
-                    score=away_score,
-                    played=away_team["played"],
-                )
+                home = teams[fusion_match["home"]["id"]]
+                away = teams[fusion_match["away"]["id"]]
+                home["score"] = home_score
+                away["score"] = away_score
 
                 match = MatchDict(
                     name=fusion_match["name"],
                     utc_time=fusion_match["utc_time"],
                     finished=fusion_match["finished"],
-                    competition=competition,
+                    competition=com,
                     home=home,
                     away=away,
                 )
@@ -157,9 +141,9 @@ async def main() -> None:
     async with AsyncClient(proxies=TEST_HTTP_PROXY) as client:
         fusion = Fusion(client=client)
         with tqdm(total=10) as pbar:
-            coms_params = await get_fusion_coms_params(fusion, pbar)
-            coms, teams = await get_fusion_coms_and_teams(
-                fusion, coms_params, pbar
+            fusion_coms_params = await get_fusion_coms_params(fusion, pbar)
+            coms, teams = await get_coms_and_teams(
+                fusion, fusion_coms_params, pbar
             )
             matches = await get_matches(fusion, coms, teams, pbar)
     export(matches, "matches.json")
