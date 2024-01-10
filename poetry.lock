@@ -55,13 +55,13 @@ files = [
 
 [[package]]
 name = "fusion-stat"
-version = "0.0.4"
+version = "0.0.5"
 description = "Scrape football data from multiple sources simultaneously."
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "fusion_stat-0.0.4-py3-none-any.whl", hash = "sha256:49c1da2ca452d66bde7713ce42745841cee681ffeebb72cd507ed57d0afb93bb"},
-    {file = "fusion_stat-0.0.4.tar.gz", hash = "sha256:cc08af9dd4792f8fafa927c61841063025550c859b885590d895f9e183afa438"},
+    {file = "fusion_stat-0.0.5-py3-none-any.whl", hash = "sha256:89585ce06002eff7f880064edab793fe37843ec5b9277e16199cf37b6911630c"},
+    {file = "fusion_stat-0.0.5.tar.gz", hash = "sha256:b8527a9a45d77fc8a4a187f8eb99832cf3921b754f6a205dce8d385e6850f0e7"},
 ]
 
 [package.dependencies]
@@ -440,4 +440,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "6b325b84f348b81a2475441addcd5d155ecb01fc24e02cff078c25de296adb82"
+content-hash = "4713adeff8ba3b503bb8afc7fed33c5e637128fa896300f22e14af2c93185659"

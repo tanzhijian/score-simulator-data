@@ -6,9 +6,7 @@ from typing import TypedDict
 
 from dotenv import get_key
 from fusion_stat import Fusion
-from fusion_stat.models.competitions import (
-    CompetitionParamsDict as FusionCompetitionParamsDict,
-)
+from fusion_stat.types import competitions_types
 from httpx import AsyncClient
 from tqdm import tqdm
 
@@ -50,7 +48,7 @@ def generate_recent_dates() -> list[str]:
 async def get_fusion_coms_params(
     fusion: Fusion,
     pbar: tqdm,
-) -> list[FusionCompetitionParamsDict]:
+) -> list[competitions_types.CompetitionParamsDict]:
     fusion_coms = await fusion.get_competitions()
     pbar.update(1)
     return fusion_coms.get_params()
@@ -58,7 +56,7 @@ async def get_fusion_coms_params(
 
 async def get_coms_and_teams(
     fusion: Fusion,
-    fusion_coms_params: list[FusionCompetitionParamsDict],
+    fusion_coms_params: list[competitions_types.CompetitionParamsDict],
     pbar: tqdm,
 ) -> tuple[dict[str, CompetitionDict], dict[str, TeamDict]]:
     coms: dict[str, CompetitionDict] = {}
@@ -106,18 +104,10 @@ async def get_matches(
             for fusion_match in items:
                 com = coms[fusion_match["competition"]["id"]]
 
-                if fusion_match["score"]:
-                    home_score, away_score = [
-                        int(score)
-                        for score in fusion_match["score"].split(" - ")
-                    ]
-                else:
-                    home_score, away_score = None, None
-
                 home = teams[fusion_match["home"]["id"]]
                 away = teams[fusion_match["away"]["id"]]
-                home["score"] = home_score
-                away["score"] = away_score
+                home["score"] = fusion_match["home"]["score"]
+                away["score"] = fusion_match["away"]["score"]
 
                 match = MatchDict(
                     name=fusion_match["name"],
