@@ -54,17 +54,32 @@ files = [
 ]
 
 [[package]]
+name = "fifacodes"
+version = "0.1.2"
+description = "FIFA member associations codes query and search."
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "fifacodes-0.1.2-py3-none-any.whl", hash = "sha256:7550c59e2519177621f6cdc844886783467d4612261bae65abd7d7066f5b6afd"},
+    {file = "fifacodes-0.1.2.tar.gz", hash = "sha256:8ee01f135a56a7f98ba7aaab8ca62e63f1fe9d1dfff46eb129787008683428db"},
+]
+
+[package.dependencies]
+rapidfuzz = ">=3.6.1,<4.0.0"
+
+[[package]]
 name = "fusion-stat"
-version = "0.0.5"
+version = "0.0.7"
 description = "Scrape football data from multiple sources simultaneously."
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "fusion_stat-0.0.5-py3-none-any.whl", hash = "sha256:89585ce06002eff7f880064edab793fe37843ec5b9277e16199cf37b6911630c"},
-    {file = "fusion_stat-0.0.5.tar.gz", hash = "sha256:b8527a9a45d77fc8a4a187f8eb99832cf3921b754f6a205dce8d385e6850f0e7"},
+    {file = "fusion_stat-0.0.7-py3-none-any.whl", hash = "sha256:c76666f07a62832eaddc1d1b4c0813a4d6be3882b75826dc42492730275b6d30"},
+    {file = "fusion_stat-0.0.7.tar.gz", hash = "sha256:664dbc162ad9c2b9ae235f62e12f4c053145cd9a7b6e9d4cf2d6264f82ac8369"},
 ]
 
 [package.dependencies]
+fifacodes = ">=0.1.2,<0.2.0"
 httpx = ">=0.26.0,<0.27.0"
 parsel = ">=1.8.1,<2.0.0"
 rapidfuzz = ">=3.6.1,<4.0.0"
@@ -440,4 +455,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "4713adeff8ba3b503bb8afc7fed33c5e637128fa896300f22e14af2c93185659"
+content-hash = "bf45f1a1dd5eb9caafa93f3b4694386854b1600ca7b7729fa7f69ad2e6f7d9c1"

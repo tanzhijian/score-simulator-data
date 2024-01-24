@@ -2,7 +2,7 @@ import asyncio
 import json
 from datetime import date as datelib
 from datetime import timedelta
-from typing import TypedDict
+from typing import Any, Generator, TypedDict
 
 from dotenv import get_key
 from fusion_stat import Fusion
@@ -37,6 +37,12 @@ class MatchDict(TypedDict):
     away: TeamDict
 
 
+FusionComsParamsTypes = Generator[
+    competitions_types.CompetitionParamsDict, Any, None
+]
+MatchesTypes = dict[str, list[MatchDict]]
+
+
 def generate_recent_dates() -> list[str]:
     today = datelib.today()
     dates = [
@@ -48,7 +54,7 @@ def generate_recent_dates() -> list[str]:
 async def get_fusion_coms_params(
     fusion: Fusion,
     pbar: tqdm,
-) -> list[competitions_types.CompetitionParamsDict]:
+) -> FusionComsParamsTypes:
     fusion_coms = await fusion.get_competitions()
     pbar.update(1)
     return fusion_coms.get_params()
@@ -56,7 +62,7 @@ async def get_fusion_coms_params(
 
 async def get_coms_and_teams(
     fusion: Fusion,
-    fusion_coms_params: list[competitions_types.CompetitionParamsDict],
+    fusion_coms_params: FusionComsParamsTypes,
     pbar: tqdm,
 ) -> tuple[dict[str, CompetitionDict], dict[str, TeamDict]]:
     coms: dict[str, CompetitionDict] = {}
@@ -72,7 +78,7 @@ async def get_coms_and_teams(
             logo=fusion_com.info["logo"],
         )
 
-        for team in fusion_com.teams:
+        for team in fusion_com.get_teams():
             teams[team["id"]] = TeamDict(
                 name=team["name"],
                 logo=team["logo"],
@@ -90,8 +96,8 @@ async def get_matches(
     coms: dict[str, CompetitionDict],
     teams: dict[str, TeamDict],
     pbar: tqdm,
-) -> dict[str, list[MatchDict]]:
-    matches: dict[str, list[MatchDict]] = {}
+) -> MatchesTypes:
+    matches: MatchesTypes = {}
     dates = generate_recent_dates()
     for date in dates:
         await asyncio.sleep(DELAY)
@@ -100,7 +106,7 @@ async def get_matches(
         pbar.update(1)
 
         day_matches: list[MatchDict] = []
-        if items := fusion_matches.items:
+        if items := fusion_matches.get_items():
             for fusion_match in items:
                 com = coms[fusion_match["competition"]["id"]]
 
@@ -122,7 +128,7 @@ async def get_matches(
     return matches
 
 
-def export(data: dict[str, list[MatchDict]], file: str) -> None:
+def export(data: MatchesTypes, file: str) -> None:
     with open(file, "w") as f:
         f.write(json.dumps(data, indent=2, ensure_ascii=False))
 
