@@ -2,11 +2,10 @@ import asyncio
 import json
 from datetime import date as datelib
 from datetime import timedelta
-from typing import Any, Generator, TypedDict
+from typing import TypedDict
 
 from dotenv import get_key
-from fusion_stat import Fusion
-from fusion_stat.types import competitions_types
+from fusion_stat import App, Competition, Matches
 from httpx import AsyncClient
 from tqdm import tqdm
 
@@ -14,12 +13,12 @@ TEST_HTTP_PROXY = get_key(".env", "TEST_HTTP_PROXY")
 DELAY = 2
 
 
-class CompetitionDict(TypedDict):
+class SSCompetitionDict(TypedDict):
     name: str
     logo: str
 
 
-class TeamDict(TypedDict):
+class SSTeamDict(TypedDict):
     name: str
     logo: str
     shots: int
@@ -28,19 +27,16 @@ class TeamDict(TypedDict):
     played: int
 
 
-class MatchDict(TypedDict):
+class SSMatchDict(TypedDict):
     name: str
     utc_time: str
     finished: bool
-    competition: CompetitionDict
-    home: TeamDict
-    away: TeamDict
+    competition: SSCompetitionDict
+    home: SSTeamDict
+    away: SSTeamDict
 
 
-FusionComsParamsTypes = Generator[
-    competitions_types.CompetitionParamsDict, Any, None
-]
-MatchesTypes = dict[str, list[MatchDict]]
+SSMatchesDict = dict[str, list[SSMatchDict]]
 
 
 def generate_recent_dates() -> list[str]:
@@ -51,35 +47,19 @@ def generate_recent_dates() -> list[str]:
     return dates
 
 
-async def get_fusion_coms_params(
-    fusion: Fusion,
-    pbar: tqdm,
-) -> FusionComsParamsTypes:
-    fusion_coms = await fusion.get_competitions()
-    pbar.update(1)
-    return fusion_coms.get_params()
-
-
-async def get_coms_and_teams(
-    fusion: Fusion,
-    fusion_coms_params: FusionComsParamsTypes,
-    pbar: tqdm,
-) -> tuple[dict[str, CompetitionDict], dict[str, TeamDict]]:
-    coms: dict[str, CompetitionDict] = {}
-    teams: dict[str, TeamDict] = {}
-    for params in fusion_coms_params:
-        await asyncio.sleep(DELAY)
-
-        fusion_com = await fusion.get_competition(**params)
-        pbar.update(1)
-
-        coms[fusion_com.info["id"]] = CompetitionDict(
-            name=fusion_com.info["name"],
-            logo=fusion_com.info["logo"],
+def parse_coms_and_teams(
+    coms_list: list[Competition],
+) -> tuple[dict[str, SSCompetitionDict], dict[str, SSTeamDict]]:
+    coms_dict: dict[str, SSCompetitionDict] = {}
+    teams_dict: dict[str, SSTeamDict] = {}
+    for com in coms_list:
+        coms_dict[com.info["id"]] = SSCompetitionDict(
+            name=com.info["name"],
+            logo=com.info["logo"],
         )
 
-        for team in fusion_com.get_teams():
-            teams[team["id"]] = TeamDict(
+        for team in com.get_teams():
+            teams_dict[team["id"]] = SSTeamDict(
                 name=team["name"],
                 logo=team["logo"],
                 shots=team["shooting"]["shots"],
@@ -88,61 +68,68 @@ async def get_coms_and_teams(
                 played=team["played"],
             )
 
-    return coms, teams
+    return coms_dict, teams_dict
 
 
-async def get_matches(
-    fusion: Fusion,
-    coms: dict[str, CompetitionDict],
-    teams: dict[str, TeamDict],
-    pbar: tqdm,
-) -> MatchesTypes:
-    matches: MatchesTypes = {}
-    dates = generate_recent_dates()
-    for date in dates:
-        await asyncio.sleep(DELAY)
+def parse_matches(
+    matches: Matches,
+    coms_dict: dict[str, SSCompetitionDict],
+    teams_dict: dict[str, SSTeamDict],
+) -> list[SSMatchDict]:
+    ss_matches: list[SSMatchDict] = []
+    if items := matches.get_items():
+        for match in items:
+            com = coms_dict[match["competition"]["id"]]
 
-        fusion_matches = await fusion.get_matches(date=date)
-        pbar.update(1)
+            home = teams_dict[match["home"]["id"]]
+            away = teams_dict[match["away"]["id"]]
+            home["score"] = match["home"]["score"]
+            away["score"] = match["away"]["score"]
 
-        day_matches: list[MatchDict] = []
-        if items := fusion_matches.get_items():
-            for fusion_match in items:
-                com = coms[fusion_match["competition"]["id"]]
-
-                home = teams[fusion_match["home"]["id"]]
-                away = teams[fusion_match["away"]["id"]]
-                home["score"] = fusion_match["home"]["score"]
-                away["score"] = fusion_match["away"]["score"]
-
-                match = MatchDict(
-                    name=fusion_match["name"],
-                    utc_time=fusion_match["utc_time"],
-                    finished=fusion_match["finished"],
-                    competition=com,
-                    home=home,
-                    away=away,
-                )
-                day_matches.append(match)
-        matches[date] = day_matches
-    return matches
+            match = SSMatchDict(
+                name=match["name"],
+                utc_time=match["utc_time"],
+                finished=match["finished"],
+                competition=com,
+                home=home,
+                away=away,
+            )
+            ss_matches.append(match)
+    return ss_matches
 
 
-def export(data: MatchesTypes, file: str) -> None:
+def export(data: SSMatchesDict, file: str) -> None:
     with open(file, "w") as f:
         f.write(json.dumps(data, indent=2, ensure_ascii=False))
 
 
 async def main() -> None:
-    async with AsyncClient(proxies=TEST_HTTP_PROXY) as client:
-        fusion = Fusion(client=client)
-        with tqdm(total=10) as pbar:
-            fusion_coms_params = await get_fusion_coms_params(fusion, pbar)
-            coms, teams = await get_coms_and_teams(
-                fusion, fusion_coms_params, pbar
-            )
-            matches = await get_matches(fusion, coms, teams, pbar)
-    export(matches, "matches.json")
+    client = AsyncClient(proxies=TEST_HTTP_PROXY)
+    app = App(client=client)
+    with tqdm(total=10) as pbar:
+        coms = await app.get_competitions()
+        await asyncio.sleep(DELAY)
+        pbar.update(1)
+
+        coms_list: list[Competition] = []
+        for params in coms.get_params():
+            com = await app.get_competition(**params)
+            await asyncio.sleep(DELAY)
+            pbar.update(1)
+            coms_list.append(com)
+
+        coms_dict, teams_dict = parse_coms_and_teams(coms_list)
+
+        dates = generate_recent_dates()
+        matches_dict: SSMatchesDict = {}
+        for date in dates:
+            matches = await app.get_matches(date=date)
+            await asyncio.sleep(DELAY)
+            pbar.update(1)
+            matches_dict[date] = parse_matches(matches, coms_dict, teams_dict)
+
+    await app.close()
+    export(matches_dict, "matches.json")
 
 
 if __name__ == "__main__":
