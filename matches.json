@@ -1,0 +1,510 @@
+{
+  "2024-05-23": [
+    {
+      "name": "Cagliari vs Fiorentina",
+      "utc_time": "2024-05-23T18:45:00.000Z",
+      "finished": true,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Cagliari",
+        "logo": "https://img.legaseriea.it/vimages/62cfd202/cagliari.png",
+        "shots": 428,
+        "xg": 41.0,
+        "score": 2,
+        "played": 38
+      },
+      "away": {
+        "name": "Fiorentina",
+        "logo": "https://img.legaseriea.it/vimages/62cef452/fiorentina.png",
+        "shots": 497,
+        "xg": 48.6,
+        "score": 3,
+        "played": 37
+      }
+    }
+  ],
+  "2024-05-24": [
+    {
+      "name": "Girona vs Granada",
+      "utc_time": "2024-05-24T19:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Girona",
+        "logo": "https://assets.laliga.com/assets/2022/06/22/small/8f43addbb29e4a72f5e90b6edfe4728f.png",
+        "shots": 462,
+        "xg": 66.2,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Granada",
+        "logo": "https://assets.laliga.com/assets/2023/01/17/small/f5db12f3a29fdfd14a0d50337016dc95.png",
+        "shots": 384,
+        "xg": 41.6,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Genoa vs Bologna",
+      "utc_time": "2024-05-24T18:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Genoa",
+        "logo": "https://img.legaseriea.it/vimages/649e8a06/GENOA-1.png",
+        "shots": 382,
+        "xg": 34.1,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Bologna",
+        "logo": "https://img.legaseriea.it/vimages/62cef3f6/bologna.png",
+        "shots": 461,
+        "xg": 46.9,
+        "score": null,
+        "played": 37
+      }
+    }
+  ],
+  "2024-05-25": [
+    {
+      "name": "Osasuna vs Villarreal",
+      "utc_time": "2024-05-25T12:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Osasuna",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/osasuna.png",
+        "shots": 409,
+        "xg": 39.6,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Villarreal",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/villarreal.png",
+        "shots": 451,
+        "xg": 54.0,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Real Sociedad vs Atletico Madrid",
+      "utc_time": "2024-05-25T14:15:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Real Sociedad",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/real-sociedad.png",
+        "shots": 443,
+        "xg": 44.3,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Atletico Madrid",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/atletico.png",
+        "shots": 465,
+        "xg": 60.3,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Almeria vs Cadiz",
+      "utc_time": "2024-05-25T16:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Almeria",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/almeria.png",
+        "shots": 451,
+        "xg": 45.8,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Cadiz",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/cadiz.png",
+        "shots": 383,
+        "xg": 35.4,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Rayo Vallecano vs Athletic Club",
+      "utc_time": "2024-05-25T16:30:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Rayo Vallecano",
+        "logo": "https://assets.laliga.com/assets/2023/04/27/small/57d9950a8745ead226c04d37235c0786.png",
+        "shots": 470,
+        "xg": 41.3,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Athletic Club",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/athletic.png",
+        "shots": 451,
+        "xg": 51.8,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Real Madrid vs Real Betis",
+      "utc_time": "2024-05-25T19:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/real-madrid.png",
+        "shots": 580,
+        "xg": 67.8,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Real Betis",
+        "logo": "https://assets.laliga.com/assets/2022/09/15/small/e4a09419d3bd115b8f3dab73d480e146.png",
+        "shots": 478,
+        "xg": 43.2,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Juventus vs Monza",
+      "utc_time": "2024-05-25T16:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Juventus",
+        "logo": "https://img.legaseriea.it/vimages/62cfda28/colore=BLACK.png",
+        "shots": 519,
+        "xg": 53.7,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Monza",
+        "logo": "https://img.legaseriea.it/vimages/62c6acbd/monza.png",
+        "shots": 439,
+        "xg": 38.9,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "AC Milan vs Salernitana",
+      "utc_time": "2024-05-25T18:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "AC Milan",
+        "logo": "https://img.legaseriea.it/vimages/62cef513/milan.png",
+        "shots": 531,
+        "xg": 63.2,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Salernitana",
+        "logo": "https://img.legaseriea.it/vimages/62cef553/salernitana.png",
+        "shots": 384,
+        "xg": 28.7,
+        "score": null,
+        "played": 37
+      }
+    }
+  ],
+  "2024-05-26": [
+    {
+      "name": "Getafe vs Mallorca",
+      "utc_time": "2024-05-26T12:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Getafe",
+        "logo": "https://assets.laliga.com/assets/2023/05/12/small/dc59645c96bc2c9010341c16dd6d4bfa.png",
+        "shots": 430,
+        "xg": 44.8,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Mallorca",
+        "logo": "https://assets.laliga.com/assets/2023/03/22/small/013ae97735bc8e519dcf30f6826168ca.png",
+        "shots": 406,
+        "xg": 39.1,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Celta Vigo vs Valencia",
+      "utc_time": "2024-05-26T14:15:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Celta Vigo",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/celta.png",
+        "shots": 459,
+        "xg": 49.2,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Valencia",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/valencia.png",
+        "shots": 357,
+        "xg": 41.1,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Las Palmas vs Deportivo Alaves",
+      "utc_time": "2024-05-26T14:15:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Las Palmas",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/las-palmas.png",
+        "shots": 377,
+        "xg": 32.2,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Deportivo Alaves",
+        "logo": "https://assets.laliga.com/assets/2020/09/01/small/27002754a98bf535807fe49a24cc63ea.png",
+        "shots": 445,
+        "xg": 43.7,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Sevilla vs Barcelona",
+      "utc_time": "2024-05-26T19:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "LaLiga",
+        "logo": "https://cdn.cookielaw.org/logos/f99d5762-5a8e-4e1e-b9e9-e5c54ec8ea01/ad294791-9034-442d-ab46-e1d94e100d71/629b7af6-84a6-4437-ae29-fefaefb3f5d2/RGB_Logotipo_LALIGA_coral.png"
+      },
+      "home": {
+        "name": "Sevilla",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/sevilla.png",
+        "shots": 472,
+        "xg": 43.4,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Barcelona",
+        "logo": "https://assets.laliga.com/assets/2019/06/07/small/barcelona.png",
+        "shots": 577,
+        "xg": 76.2,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Atalanta vs Torino",
+      "utc_time": "2024-05-26T16:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Atalanta",
+        "logo": "https://img.legaseriea.it/vimages/62cfd69d/atalanta.png",
+        "shots": 510,
+        "xg": 53.5,
+        "score": null,
+        "played": 36
+      },
+      "away": {
+        "name": "Torino",
+        "logo": "https://img.legaseriea.it/vimages/62cef5cb/torino.png",
+        "shots": 424,
+        "xg": 36.6,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "SSC Napoli vs Lecce",
+      "utc_time": "2024-05-26T16:00:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "SSC Napoli",
+        "logo": "https://img.legaseriea.it/vimages/62cef532/napoli.png",
+        "shots": 614,
+        "xg": 59.9,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Lecce",
+        "logo": "https://img.legaseriea.it/vimages/62cef4f6/lecce.png",
+        "shots": 493,
+        "xg": 42.6,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Empoli vs Roma",
+      "utc_time": "2024-05-26T18:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Empoli",
+        "logo": "https://img.legaseriea.it/vimages/62cef42e/empoli.png",
+        "shots": 396,
+        "xg": 33.6,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Roma",
+        "logo": "https://img.legaseriea.it/vimages/62cfd5ce/roma.png",
+        "shots": 449,
+        "xg": 50.0,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Frosinone vs Udinese",
+      "utc_time": "2024-05-26T18:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Frosinone",
+        "logo": "https://img.legaseriea.it/vimages/62cfdfec/frosinone.png",
+        "shots": 439,
+        "xg": 45.0,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Udinese",
+        "logo": "https://img.legaseriea.it/vimages/62cef5e9/udinese.png",
+        "shots": 447,
+        "xg": 38.3,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Hellas Verona vs Inter",
+      "utc_time": "2024-05-26T18:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Hellas Verona",
+        "logo": "https://img.legaseriea.it/vimages/62cfe8b8/colore=BLUE.png",
+        "shots": 417,
+        "xg": 36.2,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Inter",
+        "logo": "https://img.legaseriea.it/vimages/62cef496/inter.png",
+        "shots": 565,
+        "xg": 75.9,
+        "score": null,
+        "played": 37
+      }
+    },
+    {
+      "name": "Lazio vs Sassuolo",
+      "utc_time": "2024-05-26T18:45:00.000Z",
+      "finished": false,
+      "competition": {
+        "name": "Serie A",
+        "logo": "https://img.legaseriea.it/vimages/62cef685/SerieA_RGB.jpg?webp&q=70&size=-x0"
+      },
+      "home": {
+        "name": "Lazio",
+        "logo": "https://img.legaseriea.it/vimages/62cef4d5/lazio.png",
+        "shots": 428,
+        "xg": 45.5,
+        "score": null,
+        "played": 37
+      },
+      "away": {
+        "name": "Sassuolo",
+        "logo": "https://img.legaseriea.it/vimages/62cef590/sassuolo.png",
+        "shots": 445,
+        "xg": 38.7,
+        "score": null,
+        "played": 37
+      }
+    }
+  ]
+}
